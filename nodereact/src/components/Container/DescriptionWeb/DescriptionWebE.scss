@@ -1,0 +1,91 @@
+.w-button-dsk-w{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    margin: 120px 0 0 0;
+    overflow: hidden;
+
+    // BUTTON DESKRIPSI WEB
+    .btn-dsk-w{
+        display: flex;
+        height: 50px;
+        width: auto;
+        background: #34495e3f;
+        box-shadow: 0 2px 5px -1px rgba(0,0,0,.3);
+        border-radius: 10px;
+        border: none;
+        outline-style: none;
+        margin: 40px 20px 0 20px;
+        padding: 0 0 0 15px;
+        align-items: center;
+        transition-property: all;
+        transition: 200ms ease-in-out;
+        overflow: hidden;
+
+        &:hover{
+            background: #eee;
+        }
+
+    .col1-dsk-w{
+        display: flex;
+        height: auto;
+        width: 85%;
+        align-items: center;
+        overflow: hidden;
+
+        .txt-btn-dsk{
+            display: flex;
+            font-size: 15px;
+            font-family: 'roboto';
+            color: #34495e;
+            margin: 1px;
+            overflow: hidden;
+        }
+    }
+
+    .col2-dsk-w{
+        display: flex;
+        height: auto;
+        width: 15%;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        i{
+            display: flex;
+            font-size: 20px;
+            color: #152238;
+            overflow: hidden;
+        }
+    }
+}
+    // PAPAN DESCRIPTION WEB
+    .p-dsk-w{
+        display: flex;
+        height: auto;
+        width: auto;
+        background-color: #fff;
+        box-shadow: 0 0 10px -1px rgba(0,0,0,0.3);
+        border-radius: 5px;
+        margin: 15px 20px 15px 20px;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        overflow: hidden;
+
+        .txt-p-dsk-w{
+            display: flex;
+            font-size: 13px;
+            font-weight: normal;
+            font-family: 'roboto';
+            color: #34495e;
+            overflow: hidden;
+        }
+    }
+    // END PAPAN DESCRIPTION WEB
+}
+// END BUTTON DESKRIPSI WEB
+
+
+
+

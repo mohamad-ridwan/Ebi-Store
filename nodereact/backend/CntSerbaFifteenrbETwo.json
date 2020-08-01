@@ -1,0 +1,18 @@
+{
+    "CntSerbaFifteenrbETwo": [
+        {
+            "id1": 1,
+            "img1": "",
+            "name1": "Makaroni Rasa Barbeque",
+            "txtGrade1": "(`12`) Terjual",
+            "txtStock1": "Stock (60)"
+        },
+        {
+            "id1": 2,
+            "img1": "",
+            "name1": "Makaroni Jagung Bakar",
+            "txtGrade1": "(`21`) Terjual",
+            "txtStock1": "Stock (38)"
+        }
+    ]
+}

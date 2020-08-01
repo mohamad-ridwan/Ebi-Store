@@ -1,0 +1,117 @@
+.w-button-dsk-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: transparent;
+  margin: 120px 0 0 0;
+  overflow: hidden;
+}
+
+.w-button-dsk-w .btn-dsk-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  width: auto;
+  background: #34495e3f;
+  -webkit-box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border: none;
+  outline-style: none;
+  margin: 40px 20px 0 20px;
+  padding: 0 0 0 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  overflow: hidden;
+}
+
+.w-button-dsk-w .btn-dsk-w:hover {
+  background: #eee;
+}
+
+.w-button-dsk-w .btn-dsk-w .col1-dsk-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 85%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.w-button-dsk-w .btn-dsk-w .col1-dsk-w .txt-btn-dsk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #34495e;
+  margin: 1px;
+  overflow: hidden;
+}
+
+.w-button-dsk-w .btn-dsk-w .col2-dsk-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 15%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.w-button-dsk-w .btn-dsk-w .col2-dsk-w i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  color: #152238;
+  overflow: hidden;
+}
+
+.w-button-dsk-w .p-dsk-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin: 15px 20px 15px 20px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+}
+
+.w-button-dsk-w .p-dsk-w .txt-p-dsk-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: 'roboto';
+  color: #34495e;
+  overflow: hidden;
+}
+/*# sourceMappingURL=DescriptionWebE.css.map */

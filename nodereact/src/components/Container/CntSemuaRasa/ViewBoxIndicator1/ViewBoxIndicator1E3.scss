@@ -1,0 +1,244 @@
+ // Section2
+ .section2-v-box1-e3{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding: 5px 0 5px 0;
+    border-top: 1px solid #aaa;
+    overflow: hidden;
+
+    // Kolom Name User
+    .kol-name-user{
+        display: flex;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        padding: 5px 0 5px 10px;
+        overflow: hidden;
+
+        // Picture User
+        .circle-pic-u{
+            display: flex;
+            height: 35px;
+            width: 35px;
+            background: #ddd;
+            box-shadow: 0 0 2px 1px rgba(0,0,0,0.2);
+            border-radius: 500px;
+            overflow: hidden;
+
+            .img-u{
+                display: flex;
+                height: 100%;
+                width: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                overflow: hidden;
+            }
+        }
+        // END Picture User
+
+        // Name User
+        .name-u{
+            display: flex;
+            height: auto;
+            width: auto;
+            margin: 0 0 0 8px;
+            overflow: hidden;
+
+            .txt-name-u{
+                display: flex;
+                font-size: 12px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #333;
+                text-align: start;
+                overflow: hidden;
+            }
+        }
+        // END Name User
+
+        // Rate User
+        .rate-comment{
+            display: flex;
+            height: auto;
+            width: auto;
+            align-items: center;
+            margin: 2px 0 0 5px;
+            overflow: hidden;
+
+            ul{
+                display: flex;
+                align-items: center;
+                overflow: hidden;
+
+                li{
+                    display: flex;
+                    margin: 0 3px 0 0;
+                    overflow: hidden;
+
+                    i{
+                        display: flex;
+                        font-size: 8px;
+                        color: gold;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+        // END Rate User
+
+    }
+    // END Kolom Name User
+
+    // Kolom Text User
+    .kol-txt-user{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        padding: 5px 10px 5px 10px;
+        overflow: hidden;
+
+        .body-txt-user{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: auto;
+            background: #fff;
+            border-radius: 3px;
+            justify-content: flex-start;
+            padding: 10px 5px 10px 5px;
+            overflow: hidden;
+
+            .txt-user{
+                display: flex;
+                font-size: 10px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #333;
+                text-align: start;
+                overflow: hidden;
+            }
+
+            .time-comment-user{
+                display: flex;
+                font-size: 8px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #34495e;
+                text-align: start;
+                padding: 10px 0 0 0;
+                overflow: hidden;
+            }
+        }
+    }
+    // END Kolom Text User
+
+    // Kolom Button Text User
+    .kol-btn-comment-user{
+        display: flex;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        padding: 5px 0 0 20px;
+        overflow: hidden;
+
+        // Like
+        .w-btn-like{
+            display: flex;
+            height: auto;
+            width: auto;
+            padding: 2px 2px 2px 0px;
+            overflow: hidden;
+
+            .btn-like{
+                display: flex;
+                text-decoration: none;
+                padding: 2px 5px 2px 2px;
+                overflow: hidden;
+
+                i{
+                    display: flex;
+                    font-size: 10px;
+                    color: #34495e;
+                    overflow: hidden;
+                }
+            }
+
+            .txt-jm-like{
+                display: flex;
+                font-size: 9px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #333;
+                overflow: hidden;
+            }
+        }
+        // END Like
+
+        // Dislike
+        .w-btn-dislike{
+            display: flex;
+            height: auto;
+            width: auto;
+            padding: 2px 2px 2px 5px;
+            overflow: hidden;
+
+            .btn-dislike{
+                display: flex;
+                text-decoration: none;
+                padding: 2px 5px 2px 2px;
+                overflow: hidden;
+
+                i{
+                    display: flex;
+                    font-size: 10px;
+                    color: #34495e;
+                    overflow: hidden;
+                }
+            }
+
+            .txt-jm-dislike{
+                display: flex;
+                font-size: 9px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #333;
+                overflow: hidden;
+            }
+        }
+        // END Dislike
+
+        // Delete
+        .w-btn-delete{
+            display: flex;
+            height: auto;
+            width: auto;
+            padding: 2px 2px 2px 5px;
+            overflow: hidden;
+
+            .btn-delete{
+                display: flex;
+                text-decoration: none;
+                padding: 2px 5px 2px 2px;
+                overflow: hidden;
+
+                i{
+                    display: flex;
+                    font-size: 10px;
+                    color: #34495e;
+                    overflow: hidden;
+                }
+            }
+
+            .txt-delete{
+                display: flex;
+                font-size: 9px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #333;
+                overflow: hidden;
+            }
+        }
+        // END Delete
+    }
+    // END Kolom Button Text User
+}
+// END Section2

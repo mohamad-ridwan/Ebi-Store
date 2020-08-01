@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAA;EACd,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,QAAQ,EAAE,MAAM;CACnB",
+    "sources": [
+        "CntPromoBesar.scss"
+    ],
+    "names": [],
+    "file": "CntPromoBesar.css"
+}

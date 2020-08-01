@@ -1,0 +1,226 @@
+.cont-akun{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background: #eee;
+    padding: 0 0 200px 0;
+    overflow: hidden;
+
+    // Column1
+    .col1-akun{
+        display: flex;
+        height: 50px;
+        width: 100%;
+        background: #152238;
+        box-shadow: 0 3px 6px -1px rgba(0,0,0,0.5);
+        overflow: hidden;
+
+        .btn-back{
+            display: flex;
+            height: auto;
+            width: 50px;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+
+            .btn{
+                display: flex;
+                font-size: 20px;
+                color: #fff;
+                padding: 5px;
+                text-decoration: none;
+                overflow: hidden;
+                
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .bar-title{
+            display: flex;
+            height: auto;
+            width: 100%;
+            align-items: center;
+            padding: 0 0 0 20px;
+            overflow: hidden;
+
+            .text-title{
+                display: flex;
+                font-size: 18px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #F1D0A5;
+                overflow: hidden;
+            }
+        }
+    }
+    // END Column1
+
+    // Column2
+    .col2-akun{
+        display: flex;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 0 10px 0;
+        overflow: hidden;
+
+        .circle-desk{
+            display: flex;
+            flex-direction: column;
+            height: 230px;
+            width: 230px;
+            background: #fff;
+            box-shadow: 0 0 20px -1px rgba(0,0,0,0.3);
+            border-radius: 500px;
+            padding: 10px;
+            overflow: hidden;
+
+            .col-animation-exclamation{
+                display: flex;
+                height: 40%;
+                width: 100%;
+                justify-content: center;
+                align-content: center;
+                overflow: hidden;
+
+                i{
+                    display: flex;
+                    font-size: 50px;
+                    color: #34495e;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 7px 0 15px 0;
+                    overflow: hidden;
+                    animation: exclamation 500ms 1;
+                }
+            }
+
+            .col-desk{
+                display: flex;
+                height: 60%;
+                width: 100%;
+                justify-content: center;
+                align-content: center;
+                overflow: hidden;
+
+                .txt-desk{
+                    display: flex;
+                    font-size: 13px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    text-align: center;
+                    color: #333;
+                    margin: -5px 0 0 0;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+    // END Column2
+
+    // Column3
+    .col3-akun{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+
+        // Section1
+        .section1{
+            display: flex;
+            height: auto;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 0 5px 0;
+            overflow: hidden;
+            
+            .txt1{
+                display: flex;
+                font-size: 17px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                color: #333;
+                overflow: hidden;
+            }
+        }
+        // END Section1
+
+        // Section2
+        .section2{
+            display: flex;
+            height: auto;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            overflow: hidden;
+
+            .btn-login{
+                display: flex;
+                height: 40px;
+                width: 100px;
+                background: #fff;
+                box-shadow: 0 3px 6px -1px rgba(0,0,0,0.5);
+                border-radius: 500px;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                // Font
+                font-size: 15px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #34495e;
+                overflow: hidden;
+            }
+
+            .txt2{
+                display: flex;
+                font-size: 15px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                color: #333;
+                margin: 0 15px 0 15px;
+                overflow: hidden;
+            }
+
+            .btn-daftar{
+                display: flex;
+                height: 40px;
+                width: 100px;
+                background: #34495e;
+                box-shadow: 0 3px 6px -1px rgba(0,0,0,0.5);
+                border-radius: 500px;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                // Font
+                font-size: 15px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #fff;
+                overflow: hidden;
+            }
+        }
+        // END Section2
+    }
+    // END Column3
+}
+
+// Animation for Tanda Seru
+@keyframes exclamation {
+    0%{
+        font-size: 0px;
+    }
+    50%{
+        font-size: 50px;
+    }
+    55%{
+        font-size: 40px;
+    }
+    100%{
+        font-size: 50px;
+    }
+}
+// END Animation for Tanda Seru

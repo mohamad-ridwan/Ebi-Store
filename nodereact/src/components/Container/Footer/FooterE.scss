@@ -1,0 +1,414 @@
+// Container Footer
+.c-f{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+
+    // Footer 1
+    .footer-1{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        width: 100%;
+        background: #ccc;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        z-index: 0;
+
+        .jdl-f-1{
+            display: flex;
+            font-size: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #34495e;
+            margin: 20px 0 0 0;
+            overflow: hidden;
+        }
+
+        // Circle icon Medsos
+        .c-i-m{
+            display: flex;
+            height: 100px;
+            width: auto;
+            align-items: center;
+            padding: 0 5px 0 5px;
+            overflow: hidden;
+
+            // Circle1
+            .c-1-m{
+                display: flex;
+                height: 50px;
+                width: 50px;
+                background: #fff;
+                box-shadow: 0 3px 7px -1px rgba(0,0,0,0.5);
+                text-decoration: none;
+                border-radius: 500px;
+                justify-content: center;
+                align-items: center;
+                margin: 0 14px 0 0px;
+                overflow: hidden;
+
+                &:hover{
+                    margin: -8px 14px 0 0;
+                    box-shadow: 0 2px 5px -1px rgba(0,0,0,0.3);
+                    transition: 100ms ease-out;
+                }
+                
+                i{
+                    display: flex;
+                    font-size: 24px;
+                    color: #34495e;
+                    overflow: hidden;
+                }
+            }
+            // END Circle1
+
+            // Circle2
+            .c-2-m{
+                display: flex;
+                height: 50px;
+                width: 50px;
+                background: #fff;
+                box-shadow: 0 3px 7px -1px rgba(0,0,0,0.5);
+                border-radius: 500px;
+                text-decoration: none;
+                justify-content: center;
+                align-items: center;
+                margin: 0 14px 0 0px;
+                overflow: hidden;
+
+                &:hover{
+                    margin: -8px 14px 0 0;
+                    box-shadow: 0 2px 5px -1px rgba(0,0,0,0.3);
+                    transition: 100ms ease-out;
+                }
+                
+                i{
+                    display: flex;
+                    font-size: 24px;
+                    color: #34495e;
+                    overflow: hidden;
+                }
+            }
+            // END Circle2
+
+            // Circle3
+            .c-3-m{
+                display: flex;
+                height: 50px;
+                width: 50px;
+                background: #fff;
+                box-shadow: 0 3px 7px -1px rgba(0,0,0,0.5);
+                border-radius: 500px;
+                text-decoration: none;
+                justify-content: center;
+                align-items: center;
+                margin: 0 14px 0 0px;
+                overflow: hidden;
+
+                &:hover{
+                    margin: -8px 14px 0 0;
+                    box-shadow: 0 2px 5px -1px rgba(0,0,0,0.3);
+                    transition: 100ms ease-out;
+                }
+                
+                i{
+                    display: flex;
+                    font-size: 24px;
+                    color: #34495e;
+                    overflow: hidden;
+                }
+            }
+            // END Circle3
+            
+            // Circle4
+            .c-4-m{
+                display: flex;
+                height: 50px;
+                width: 50px;
+                background: #fff;
+                box-shadow: 0 3px 7px -1px rgba(0,0,0,0.5);
+                border-radius: 500px;
+                text-decoration: none;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+
+                &:hover{
+                    margin: -8px 0px 0 0;
+                    box-shadow: 0 2px 5px -1px rgba(0,0,0,0.3);
+                    transition: 100ms ease-out;
+                }
+                
+                i{
+                    display: flex;
+                    font-size: 24px;
+                    color: #34495e;
+                    overflow: hidden;
+                }
+            }
+            // END Circle4
+        }
+        // END Circle icon Medsos
+    }
+    // END Footer 1
+
+    // Footer 2
+    .footer-2{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 0 15px 1px rgba(0,0,0,0.3);
+        justify-content: center;
+        align-items: center;
+        padding: 30px 20px 30px 20px;
+        overflow: hidden;
+        z-index: 1;
+
+        // Judul 
+        .jdl-desc-f{
+            display: flex;
+            font-size: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 500;
+            color: #34495e;
+            justify-content: center;
+            overflow: hidden;
+        }
+        // END Judul
+
+        // Text Description
+        .text-desc-f{
+            display: flex;
+            font-size: 15px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            justify-content: center;
+            text-align: center;
+            color: #34495e;
+            overflow: hidden;
+        }
+        // END Text Description
+    }
+    // END Footer 2
+
+    // Footer 3
+    .footer-3{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background: #ccc;
+        overflow: hidden;
+
+        // Column1
+        .col1-f{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+            align-items: flex-start;
+            padding: 20px 10px 0 10px;
+            overflow: hidden;
+
+            .txt-info{
+                display: flex;
+                font-size: 14px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #222;
+                text-align: justify;
+                overflow: hidden;
+            }
+
+            .col-no-wa{
+                display: flex;
+                height: auto;
+                width: 100%;
+                align-items: center;
+                padding: 5px 5px 5px 10px;
+                overflow: hidden;
+
+                .box-i-wa{
+                    display: flex;
+                    height: 35px;
+                    width: 35px;
+                    background: #fff;
+                    box-shadow: 0 1px 2px -1px rgba(0,0,0,0.5);
+                    border-radius: 2px;
+                    text-decoration: none;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 5px 0 0px;
+                    overflow: hidden;
+
+                    i{
+                        display: flex;
+                        font-size: 22px;
+                        color: #34495e;
+                        overflow: hidden;
+                    }
+                }
+
+                .txt-no-wa{
+                    display: flex;
+                    font-size: 13px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    color: #34495e;
+                    overflow: hidden;
+                }
+            }
+        }
+        // END Column1
+
+        // Column2
+        .col2-f{
+            display: flex;
+            height: auto;
+            width: 100%;
+            align-items: center;
+            padding: 20px 10px 0 10px;
+            overflow: hidden;
+
+            #icon-warning{
+                display: flex;
+                font-size: 40px;
+                color: #34495e;
+                padding: 0 5px 0 0;
+                overflow: hidden;
+            }
+
+            .col-txt-warning{
+                display: flex;
+                height: auto;
+                width: 100%;
+                text-align: start;
+                padding: 0 0 0 5px;
+                overflow: hidden;
+
+                .txt-warning{
+                    display: flex;
+                    font-size: 13px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    color: #333;
+                    text-align: justify;
+                    overflow: hidden;
+                }
+            }
+        }
+        // END Column2
+
+        // Column3
+        .col3-f{
+            display: flex;
+            height: auto;
+            width: 100%;
+            padding: 40px 0 50px 0;
+            overflow: hidden;
+
+            // Section1
+            .section1{
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                width: 40%;
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding: 0 0 0 10px;
+                overflow: hidden;
+                border: none;
+
+                .title-s1{
+                    display: flex;
+                    font-size: 13px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    color: #333;
+                    text-align: justify;
+                    padding: 0 0 5px 0;
+                    overflow: hidden;
+                }
+
+                .link-rek{
+                    display: flex;
+                    font-size: 13px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    color: #34495e;
+                    text-align: start;
+                    justify-content: start;
+                    align-items: flex-start;
+                    overflow: hidden;
+                }
+            }
+            // END Section1
+
+            // Section2
+            .section2{
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                width: 60%;
+                justify-content: center;
+                align-items: center;
+                padding: 0 0 10px 0;
+                overflow: hidden;
+
+                .title-s2{
+                    display: flex;
+                    font-size: 13px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    color: #fff;
+                    text-align: center;
+                    padding: 0 0 10px 0;
+                    overflow: hidden;
+                }
+
+                .box-video-pemb{
+                    display: flex;
+                    height: 140px;
+                    width: 150px;
+                    background: #fff;
+                    box-shadow: 0 3px 6px -1px rgba(0,0,0,0.2);
+                    border-radius: 3px;
+                    overflow: hidden;
+                }
+            }
+            // END Section2
+        }
+        // END Colum3
+    }
+    // END Footer 3
+
+    // Footer 4
+    .footer-4{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background: #333;
+        border-top: 2px solid #fff;
+        padding: 10px 10px 150px 10px;
+        overflow: hidden;
+
+        .title-alamat{
+            display: flex;
+            font-size: 13px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 500;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .address{
+            display: flex;
+            font-size: 12px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #fff;
+            text-align: justify;
+            overflow: hidden;
+        }
+    }
+    // END Footer 4
+}
+// END Container Footer

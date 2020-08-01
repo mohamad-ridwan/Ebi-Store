@@ -1,0 +1,595 @@
+.cont-daftar{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background: #fff;
+    margin: 0 0 0px 0;
+    overflow: hidden;
+
+    // Column1
+    .col1-daftar{
+        display: flex;
+        height: 50px;
+        width: 100%;
+        background: #152238;
+        box-shadow: 0 3px 6px -1px rgba(0,0,0,0.5);
+        overflow: hidden;
+
+        .btn-back{
+            display: flex;
+            height: auto;
+            width: 50px;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+
+            .btn{
+                display: flex;
+                font-size: 20px;
+                color: #fff;
+                padding: 5px;
+                text-decoration: none;
+                overflow: hidden;
+                
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .bar-title{
+            display: flex;
+            height: auto;
+            width: 100%;
+            align-items: center;
+            padding: 0 0 0 20px;
+            overflow: hidden;
+
+            .text-title{
+                display: flex;
+                font-size: 18px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #F1D0A5;
+                overflow: hidden;
+            }
+        }
+    }
+    // END Column1
+
+    // Column2
+    .col2-daftar{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        
+        .img-logo-icon{
+            display: flex;
+            height: 80px;
+            width: 80px;
+            margin: 20px 0 0 0;
+            padding: 2px;
+            overflow: hidden;
+        }
+
+        .sec-name-web{
+            display: flex;
+            height: auto;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            overflow: hidden;
+
+            .txt1{
+                display: flex;
+                font-size: 35px;
+                font-family: 'Fredoka One', cursive;
+                color: #ccc;
+                overflow: hidden;
+            }
+
+            .txt2{
+                display: flex;
+                font-size: 20px;
+                font-family: 'Fredoka One', cursive;
+                color: #ccc;
+                margin: 10px 0 0 0;
+                overflow: hidden;
+            }
+        }
+    }
+    // END Column2
+
+    // Column3
+    // Input
+    .col3-daftar{
+        display: flex;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        padding: 20px 0 20px 0;
+        overflow: hidden;
+
+        .col-input-daftar{
+            display: flex;
+            flex-direction: column;
+            height: 370px;
+            width: 90%;
+            background: #eee;
+            box-shadow: 0 3px 6px -1px rgba(0,0,0,0.3);
+            border-radius: 5px;
+            overflow: hidden;
+
+            // Kolom1
+            .kol1-daftar{
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                width: 100%;
+                justify-content: center;
+                align-content: center;
+                padding: 10px 0 10px 0;
+                overflow: hidden;
+
+                .icon-logo-daftar-akun{
+                    display: flex;
+                    height: 25px;
+                    width: 25px;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 5px 2px;
+                    overflow: hidden;
+                }
+
+                .txt-jdl-daftar{
+                    display: flex;
+                    font-size: 13px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 500;
+                    color: #333;
+                    align-content: center;
+                    justify-content: center;
+                    overflow: hidden;
+                }
+            }
+            // END Kolom1
+
+            // Kolom2
+            .kol2-daftar{
+                display: flex;
+                height: 40px;
+                width: auto;
+                background: #fff;
+                border: 1px solid #999;
+                border-radius: 5px;
+                margin: 5px 10px 0 10px;
+                overflow: hidden;
+
+                .kol-icon{
+                    display: flex;
+                    height: 100%;
+                    width: 50px;
+                    justify-content: center;
+                    align-content: center;
+                    text-align: center;
+                    overflow: hidden;
+
+                    i{
+                        display: flex;
+                        font-size: 20px;
+                        color: #aaa;
+                        margin: 9px 0 0px 0;
+                        justify-content: center;
+                        align-content: center;
+                        text-align: center;
+                        padding: 1px;
+                        overflow: hidden;
+                    }
+                }
+                
+                .kol-input{
+                    display: flex;
+                    height: 100%;
+                    width: 100%;
+                    overflow: hidden;
+
+                    .username{
+                        display: flex;
+                        height: 100%;
+                        width: 100%;
+                        background: #fff;
+                        border: none;
+                        outline: none;
+                        overflow: hidden;
+                        // For Font
+                        font-size: 14px;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 500;
+                        color: #333;
+                        padding: 0 0 0 10px;
+                        margin: 0 0 0 0px;
+                        overflow: hidden;
+                    }
+                }
+            }
+            // END Kolom2
+
+             // Kolom3
+             .kol3-daftar{
+                display: flex;
+                height: 40px;
+                width: auto;
+                background: #fff;
+                border: 1px solid #999;
+                border-radius: 5px;
+                margin: 7px 10px 0 10px;
+                overflow: hidden;
+
+                .kol-icon{
+                    display: flex;
+                    height: 100%;
+                    width: 50px;
+                    justify-content: center;
+                    align-content: center;
+                    text-align: center;
+                    overflow: hidden;
+
+                    i{
+                        display: flex;
+                        font-size: 20px;
+                        color: #aaa;
+                        margin: 9px 0 0px 0;
+                        justify-content: center;
+                        align-content: center;
+                        text-align: center;
+                        padding: 1px;
+                        overflow: hidden;
+                    }
+                }
+                
+                .kol-input{
+                    display: flex;
+                    height: 100%;
+                    width: 100%;
+                    overflow: hidden;
+
+                    .email{
+                        display: flex;
+                        height: 100%;
+                        width: 100%;
+                        background: #fff;
+                        border: none;
+                        outline: none;
+                        overflow: hidden;
+                        // For Font
+                        font-size: 14px;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 500;
+                        color: #333;
+                        padding: 0 0 0 10px;
+                        margin: 0 0 0 0px;
+                        overflow: hidden;
+                    }
+                }
+            }
+            // END Kolom3
+
+             // Kolom4
+             .kol4-daftar{
+                display: flex;
+                height: 40px;
+                width: auto;
+                background: #fff;
+                border: 1px solid #999;
+                border-radius: 5px;
+                margin: 7px 10px 0 10px;
+                overflow: hidden;
+
+                .kol-icon{
+                    display: flex;
+                    height: 100%;
+                    width: 50px;
+                    justify-content: center;
+                    align-content: center;
+                    text-align: center;
+                    overflow: hidden;
+
+                    i{
+                        display: flex;
+                        font-size: 20px;
+                        color: #aaa;
+                        margin: 9px 0 0px 0;
+                        justify-content: center;
+                        align-content: center;
+                        text-align: center;
+                        padding: 1px;
+                        overflow: hidden;
+                    }
+                }
+                
+                .kol-input{
+                    display: flex;
+                    height: 100%;
+                    width: 100%;
+                    overflow: hidden;
+
+                    .phone{
+                        display: flex;
+                        height: 100%;
+                        width: 100%;
+                        background: #fff;
+                        border: none;
+                        outline: none;
+                        overflow: hidden;
+                        // For Font
+                        font-size: 14px;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 500;
+                        color: #333;
+                        padding: 0 0 0 10px;
+                        margin: 0 0 0 0px;
+                        overflow: hidden;
+                    }
+                }
+            }
+            // END Kolom4
+
+             // Kolom5
+             .kol5-daftar{
+                display: flex;
+                height: 40px;
+                width: auto;
+                background: #fff;
+                border: 1px solid #999;
+                border-radius: 5px;
+                margin: 7px 10px 0 10px;
+                overflow: hidden;
+
+                .kol-icon{
+                    display: flex;
+                    height: 100%;
+                    width: 50px;
+                    justify-content: center;
+                    align-content: center;
+                    text-align: center;
+                    overflow: hidden;
+
+                    i{
+                        display: flex;
+                        font-size: 20px;
+                        color: #aaa;
+                        margin: 9px 0 0px 0;
+                        justify-content: center;
+                        align-content: center;
+                        text-align: center;
+                        padding: 1px;
+                        overflow: hidden;
+                    }
+                }
+                
+                .kol-input{
+                    display: flex;
+                    height: 100%;
+                    width: 100%;
+                    overflow: hidden;
+
+                    .password1{
+                        display: flex;
+                        height: 100%;
+                        width: 100%;
+                        background: #fff;
+                        border: none;
+                        outline: none;
+                        overflow: hidden;
+                        // For Font
+                        font-size: 14px;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 500;
+                        color: #333;
+                        padding: 0 0 0 10px;
+                        margin: 0 0 0 0px;
+                        overflow: hidden;
+                    }
+                }
+            }
+            // END Kolom5
+
+             // Kolom6
+             .kol6-daftar{
+                display: flex;
+                height: 40px;
+                width: auto;
+                background: #fff;
+                border: 1px solid #999;
+                border-radius: 5px;
+                margin: 7px 10px 0 10px;
+                overflow: hidden;
+
+                .kol-icon{
+                    display: flex;
+                    height: 100%;
+                    width: 50px;
+                    justify-content: center;
+                    align-content: center;
+                    text-align: center;
+                    overflow: hidden;
+
+                    i{
+                        display: flex;
+                        font-size: 20px;
+                        color: #aaa;
+                        margin: 9px 0 0px 0;
+                        justify-content: center;
+                        align-content: center;
+                        text-align: center;
+                        padding: 1px;
+                        overflow: hidden;
+                    }
+                }
+                
+                .kol-input{
+                    display: flex;
+                    height: 100%;
+                    width: 100%;
+                    overflow: hidden;
+
+                    .password2{
+                        display: flex;
+                        height: 100%;
+                        width: 100%;
+                        background: #fff;
+                        border: none;
+                        outline: none;
+                        overflow: hidden;
+                        // For Font
+                        font-size: 14px;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 500;
+                        color: #333;
+                        padding: 0 0 0 10px;
+                        margin: 0 0 0 0px;
+                        overflow: hidden;
+                    }
+                }
+            }
+            // END Kolom6
+
+            // Kolom7
+            .kol7-daftar{
+                display: flex;
+                height: 45px;
+                width: auto;
+                background: #34495e;
+                box-shadow: 0 2px 4px -1px rgba(0,0,0,0.6);
+                border-radius: 5px;
+                margin: 10px 10px 0 10px;
+                overflow: hidden;
+                // For Font
+                font-size: 15px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                color: #fff;
+                justify-content: center;
+                align-content: center;
+                text-decoration: none;
+                padding: 12px 0 0 0;
+
+                &:hover{
+                    height: 47px;
+                    margin: 9px 9px 0 9px;
+                    box-shadow: 0 3px 5px -1px rgba(0,0,0,0.5);
+                }
+            }
+            // END Kolom7
+        }
+    }
+    // END Input
+    // END Column3
+
+    // Column4
+    .col4-daftar{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0 30px 0;
+        margin: 0 0 55px 0;
+        overflow: hidden;
+
+        // Text
+        .txt-login{
+            display: flex;
+            font-size: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 500;
+            color: #555;
+            margin: 0 0 10px 0;
+            overflow: hidden;
+        }
+        // END Text
+
+        // Button
+        // Btn Google
+        .btn-log-google{
+            display: flex;
+            height: 42px;
+            width: 230px;
+            background: #B40000;
+            box-shadow: 0 3px 6px -1px rgba(0,0,0,0.5);
+            border-radius: 5px;
+            text-decoration: none;
+            align-items: center;
+            margin: 0 0 15px 0;
+            overflow: hidden;
+            transition: 150ms ease-out;
+
+            &:hover{
+                background: #d40101;
+            }
+
+            i{
+                display: flex;
+                font-size: 22px;
+                color: #fff;
+                margin: 0 25px 0px 20px;
+                padding: 2px;
+                overflow: hidden;
+            }
+
+            .txt-login-g{
+                display: flex;
+                font-size: 13px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #fff;
+                overflow: hidden;
+            }
+        }
+        // Btn Google
+
+        // Btn Facebook
+        .btn-log-facebook{
+            display: flex;
+            height: 42px;
+            width: 230px;
+            background: #01458a;
+            box-shadow: 0 3px 6px -1px rgba(0,0,0,0.5);
+            border-radius: 5px;
+            text-decoration: none;
+            align-items: center;
+            overflow: hidden;
+            transition: 150ms ease-out;
+
+            &:hover{
+                background: #0159b1;
+            }
+
+            i{
+                display: flex;
+                font-size: 22px;
+                color: #fff;
+                margin: 0 30px 0 20px;
+                padding: 2px;
+                overflow: hidden;
+            }
+
+            .txt-login-f{
+                display: flex;
+                font-size: 13px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #fff;
+                overflow: hidden;
+            }
+        }
+        // Btn Facebook
+        // END Button
+    }
+    // END Column4
+}

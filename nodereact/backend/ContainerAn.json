@@ -1,0 +1,1029 @@
+{
+    "ContainerAn": [
+        {
+            "container": "container-A-N"
+        }
+    ],
+    "DescriptionWeb": [
+        {
+            "wadahButton": "w-button-dsk-w"
+        }
+    ],
+    "JdlPromoBesar": [
+        {
+            "wadah": "w-jdl-p-besar",
+            "txtJdl": "Promo Besar",
+            "icon": "fas fa-angle-right"
+        }
+    ],
+    "CntPromoBesar": [
+        {
+            "id": 1,
+            "href": "#",
+            "img": "../CntPromoBesar/img/pic1.jpg"
+        },
+        {
+            "id": 2,
+            "href": "#",
+            "img": "../CntPromoBesar/img/pic2.jpg"
+        },
+        {
+            "id": 3,
+            "href": "#",
+            "img": "../CntPromoBesar/img/pic3.jpg"
+        }
+    ],
+    "JdlSemuaRasa": [
+        {
+            "wadah": "w-jdl-s-r",
+            "txt": "Dengan Semua Harga"
+        }
+    ],
+    "CntSemuaRasa": [
+        {
+            "id": 1
+        }
+    ],
+    "CntSemuaRasaE": [
+        {
+            "id": 1,
+            "carouselItem": "carousel-item active",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Original",
+            "harga": "Rp. 10.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": " Rp. 2.000",
+            "grade": "(`20`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(100)",
+            "toView": "/vbox1semuaharga",
+            "btnView": "view",
+            "toBuy": "/bbox1semuaharga",
+            "btnBuy": "buy",
+            "numberI": "1"
+        },
+        {
+            "id": 2,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Rumput Laut",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "2"
+        },
+        {
+            "id": 3,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Original Asin",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "3"
+        },
+        {
+            "id": 4,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Rumput Laut",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "4"
+        },
+        {
+            "id": 5,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Rumput Laut",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "5"
+        },
+        {
+            "id": 6,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Rumput Laut",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "6"
+        },
+        {
+            "id": 7,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Rumput Laut",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "7"
+        },
+        {
+            "id": 8,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Rumput Laut",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "8"
+        },
+        {
+            "id": 9,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Rumput Laut",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "9"
+        },
+        {
+            "id": 10,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Rumput Laut",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "10"
+        },
+        {
+            "id": 11,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Rumput Laut",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "11"
+        },
+        {
+            "id": 12,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Rumput Laut",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "12"
+        },
+        {
+            "id": 13,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Rumput Laut",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "13"
+        },
+        {
+            "id": 14,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Rumput Laut",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "14"
+        },
+        {
+            "id": 15,
+            "carouselItem": "carousel-item",
+            "img": "",
+            "txtPercent": "20%",
+            "nameProduk": "Makaroni Rumput Laut",
+            "harga": "Rp. 20.000",
+            "hargaNormal": "Harga Normal",
+            "potongan": "Rp. 5.000",
+            "grade": "(`15`)",
+            "txtTerjual": "Terjual",
+            "txtStock": "Stock",
+            "jmStock": "(8)",
+            "toView": "",
+            "btnView": "view",
+            "toBuy": "",
+            "btnBuy": "buy",
+            "numberI": "15"
+        }
+    ],
+    "JdlSerbaTenrb": [
+        {
+            "jdl": "Serba 10rb"
+        }
+    ],
+    "CntSerbaTenrb": [
+        {
+            "id": 1
+        }
+    ],
+    "CntSerbaTenrbTwo": [
+        {
+            "id1": 1,
+            "img1": "",
+            "txtNew1": "New",
+            "name1": "Makaroni Asoy",
+            "txtGrade1": "(`200`) Terjual",
+            "txtStock1": "Stock (100)"
+        },
+        {
+            "id1": 2,
+            "img1": "",
+            "txtNew1": "New",
+            "name1": "Makaroni Rumput Singkong",
+            "txtGrade1": "(`10`) Terjual",
+            "txtStock1": "Stock (5)"
+        }
+    ],
+    "CntSerbaTenrbThree": [
+        {
+            "id2": 1,
+            "img2": "",
+            "txtNew2": "New",
+            "name2": "Makaroni Pedas Asin",
+            "txtGrade2": "(`2`) Terjual",
+            "txtStock2": "Stock (50)"
+        },
+        {
+            "id2": 2,
+            "img2": "",
+            "txtNew2": "New",
+            "name2": "Makaroni Balado",
+            "txtGrade2": "(`90`) Terjual",
+            "txtStock2": "Stock (18)"
+        }
+    ],
+    "CntSerbaTenrbFour": [
+        {
+            "btnView": "View More"
+        }
+    ],
+    "JdlSerbaFifteenrb": [
+        {
+            "jdl": "Serba 15rb"
+        }
+    ],
+    "CntSerbaFifteenrb": [
+        {
+            "Cont": "w-c-s-15rb"
+        }
+    ],
+    "CntSerbaFifteenrbETwo": [
+        {
+            "id1": 1,
+            "img1": "",
+            "txtNew1": "New",
+            "name1": "Makaroni Rasa Barbeque",
+            "txtGrade1": "(`12`) Terjual",
+            "txtStock1": "Stock (60)"
+        },
+        {
+            "id1": 2,
+            "img1": "",
+            "txtNew1": "New",
+            "name1": "Makaroni Jagung Bakar",
+            "txtGrade1": "(`21`) Terjual",
+            "txtStock1": "Stock (38)"
+        }
+    ],
+    "CntSerbaFifteenrbEThree": [
+        {
+            "id2": 1,
+            "img2": "",
+            "txtNew2": "New",
+            "name2": "Makaroni Kentang Bakar",
+            "txtGrade2": "(`14`) Terjual",
+            "txtStock2": "Stock (45)"
+        },
+        {
+            "id2": 2,
+            "img2": "",
+            "txtNew2": "New",
+            "name2": "Makaroni Rasa Seblak",
+            "txtGrade2": "(`26`) Terjual",
+            "txtStock2": "Stock (75)"
+        }
+    ],
+    "CntSerbaFifteenrbEFour": [
+        {
+            "btnView": "View More"
+        }
+    ],
+    "JdlPromoAkhirPekan": [
+        {
+            "jdl": "Promo Akhir Pekan"
+        }
+    ],
+    "CntPromoAkhirPekan": [
+        {
+            "Cont": "c-p-p-a-p"
+        }
+    ],
+    "CntPromoAkhirPekanETwo": [
+        {
+            "title1": "Promo Sabtu",
+            "img1": "",
+            "time1": "time 1"
+        }
+    ],
+    "CntPromoAkhirPekanEThree": [
+        {
+            "title2": "Promo Minggu",
+            "img2": "",
+            "time2": "time 2"
+        }
+    ],
+    "CntPromoAkhirPekanEFour": [
+        {
+            "btn": "Details",
+            "icon": "fas fa-chevron-circle-right"
+        }
+    ],
+    "JdlChallange": [
+        {
+            "txtJdl": "Challange"
+        }
+    ],
+    "CntChallangeETwo": [
+        {
+            "img1": "",
+            "txt1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ut eligendi at deserunt nam nulla.",
+            "btn1": "Check"
+        }
+    ],
+    "CntChallangeEThree": [
+        {
+            "img2": "",
+            "txt2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ut eligendi at deserunt nam nulla.",
+            "btn2": "Check"
+        }
+    ],
+    "FooterE": [
+        {
+            "jdlFollow": "Follow Akun Kami",
+            "iconFacebook": "fab fa-facebook-f",
+            "iconTwitter": "fab fa-twitter",
+            "iconInstagram": "fab fa-instagram",
+            "iconGoogle": "fab fa-google-plus-g",
+            "jdlDesc": "Description",
+            "txt1Desc": "Kami menyediakan berbabgai makanan makaroni, bisa untuk jajanan,",
+            "txt2Desc": "dan juga bisa untuk cemilan bagi anda yang bekerja.",
+            "txt3Desc": "Disini juga kami menyediakan pesanan paket untuk kegiatan acara",
+            "txt4Desc": "seperti, kegiatan kantor, reuni, pernikahan, dll.",
+            "txt5Desc": "Catatan :",
+            "txt6Desc": "Kami hanya menyediakan makanan makaroni saja",
+            "txt7Desc": "Jika informasi mengenai ini ada yang kurang, bisa di tanyakan",
+            "txt8Desc": "melalui akun media sosial yang tercantum",
+            "txtInfo1": "Pesanan Paket untuk Kegiatan Acara,",
+            "txtInfo2": "Bisa langsung hubungi melalui media WhatsApp :",
+            "iconWhatsApp": "fab fa-whatsapp",
+            "txtNoWa": "081383959452",
+            "txtWarning": "Metode pembayaran pada aplikasi EbiStore ini hanya berlaku dengan transaksi online, termasuk juga Pesanan Paket.",
+            "titleRekening": "Rekening untuk pembayaran",
+            "linkRekening": "view",
+            "titleLangkah": "Lihat langkah-langkah pembayaran",
+            "titleAlamat": "Informasi Alamat Tempat",
+            "address1": "Citayam, Komplek Departemen Agama Blok F/116, RT 012/015",
+            "address2": "Pabuaran Bojonggede",
+            "address3": "Bogor, Jawa Barat",
+            "address4": "16320"
+        }
+    ],
+    "AllBoxSerbaTenrb": [
+        {
+            "container": "cont-box-s-10rb"
+        }
+    ],
+    "AllBoxSerbaTenrbETwo": [
+        {
+            "id1": 1,
+            "img1": "",
+            "new1": "New",
+            "name1": "Makaroni Rasa Rumput Yang Bergoyang",
+            "price1": "Rp. 10.000",
+            "grade1": "(`20`)",
+            "txtTerjual1": "Terjual",
+            "txtStock1": "Stock",
+            "jmStock1": "(80)",
+            "hrefView1": "#",
+            "btnView1": "view",
+            "hrefBuy1": "#",
+            "btnBuy1": "buy"
+        },
+        {
+            "id1": 2,
+            "img1": "",
+            "new1": "New",
+            "name1": "Makaroni Rasa Rumput Yang Bergoyang",
+            "price1": "Rp. 10.000",
+            "grade1": "(`20`)",
+            "txtTerjual1": "Terjual",
+            "txtStock1": "Stock",
+            "jmStock1": "(80)",
+            "hrefView1": "#",
+            "btnView1": "view",
+            "hrefBuy1": "#",
+            "btnBuy1": "buy"
+        }
+    ],
+    "AllBoxSerbaTenrbEThree": [
+        {
+            "id2": 1,
+            "img2": "",
+            "new2": "New",
+            "name2": "Makaroni Original",
+            "price2": "Rp. 10.000",
+            "grade2": "(`20`)",
+            "txtTerjual2": "Terjual",
+            "txtStock2": "Stock",
+            "jmStock2": "(80)",
+            "hrefView2": "#",
+            "btnView2": "view",
+            "hrefBuy2": "#",
+            "btnBuy2": "buy"
+        },
+        {
+            "id2": 2,
+            "img2": "",
+            "new2": "New",
+            "name2": "Makaroni Rasa Rumput Yang Bergoyang",
+            "price2": "Rp. 10.000",
+            "grade2": "(`20`)",
+            "txtTerjual2": "Terjual",
+            "txtStock2": "Stock",
+            "jmStock2": "(80)",
+            "hrefView2": "#",
+            "btnView2": "view",
+            "hrefBuy2": "#",
+            "btnBuy2": "buy"
+        }
+    ],
+    "AllBoxSerbaFifteenrb": [
+        {
+            "container": "cont-box-s-15rb"
+        }
+    ],
+    "AllBoxSerbaFifteenrbETwo": [
+        {
+            "id1": 1,
+            "img1": "",
+            "new1": "New",
+            "name1": "Makaroni Rasa Barbeque",
+            "price1": "Rp. 15.000",
+            "grade1": "(`20`)",
+            "txtTerjual1": "Terjual",
+            "txtStock1": "Stock",
+            "jmStock1": "(80)",
+            "hrefView1": "#",
+            "btnView1": "view",
+            "hrefBuy1": "#",
+            "btnBuy1": "buy"
+        },
+        {
+            "id1": 2,
+            "img1": "",
+            "new1": "New",
+            "name1": "Makaroni Keju Morajela",
+            "price1": "Rp. 15.000",
+            "grade1": "(`20`)",
+            "txtTerjual1": "Terjual",
+            "txtStock1": "Stock",
+            "jmStock1": "(80)",
+            "hrefView1": "#",
+            "btnView1": "view",
+            "hrefBuy1": "#",
+            "btnBuy1": "buy"
+        }
+    ],
+    "AllBoxSerbaFifteenrbEThree": [
+        {
+            "id2": 1,
+            "img2": "",
+            "new2": "New",
+            "name2": "Makaroni Potato",
+            "price2": "Rp. 15.000",
+            "grade2": "(`20`)",
+            "txtTerjual2": "Terjual",
+            "txtStock2": "Stock",
+            "jmStock2": "(80)",
+            "hrefView2": "#",
+            "btnView2": "view",
+            "hrefBuy2": "#",
+            "btnBuy2": "buy"
+        },
+        {
+            "id2": 2,
+            "img2": "",
+            "new2": "New",
+            "name2": "Makaroni Sambalado",
+            "price2": "Rp. 15.000",
+            "grade2": "(`20`)",
+            "txtTerjual2": "Terjual",
+            "txtStock2": "Stock",
+            "jmStock2": "(80)",
+            "hrefView2": "#",
+            "btnView2": "view",
+            "hrefBuy2": "#",
+            "btnBuy2": "buy"
+        }
+    ],
+    "CntPromoSabtu": [
+        {
+            "container": "cont-p-sabtu"
+        }
+    ],
+    "CntPromoSabtuETwo": [
+        {
+            "id1": 1,
+            "img1": "",
+            "percent1": "15%",
+            "name1": "Makaroni Mantap Jiwa",
+            "price1": "Rp. 20.000",
+            "hargaNormal1": "Harga Normal",
+            "potongan1": "Rp. 10.000",
+            "grade1": "(`50`)",
+            "txtTerjual1": "Terjual",
+            "txtStock1": "Stock",
+            "jmStock1": "(45)",
+            "hrefView1": "#",
+            "btnView1": "view",
+            "hrefBuy1": "#",
+            "btnBuy1": "buy"
+        },
+        {
+            "id1": 2,
+            "img1": "",
+            "percent1": "13%",
+            "name1": "Makaroni Mantap Jiwa",
+            "price1": "Rp. 20.000",
+            "hargaNormal1": "Harga Normal",
+            "potongan1": "Rp. 10.000",
+            "grade1": "(`50`)",
+            "txtTerjual1": "Terjual",
+            "txtStock1": "Stock",
+            "jmStock1": "(45)",
+            "hrefView1": "#",
+            "btnView1": "view",
+            "hrefBuy1": "#",
+            "btnBuy1": "buy"
+        }
+    ],
+    "CntPromoSabtuEThree": [
+        {
+            "id2": 1,
+            "img2": "",
+            "percent2": "5%",
+            "name2": "Makaroni Mantap Slurr",
+            "price2": "Rp. 15.000",
+            "hargaNormal2": "Harga Normal",
+            "potongan2": "Rp. 12.000",
+            "grade2": "(`50`)",
+            "txtTerjual2": "Terjual",
+            "txtStock2": "Stock",
+            "jmStock2": "(45)",
+            "hrefView2": "#",
+            "btnView2": "view",
+            "hrefBuy2": "#",
+            "btnBuy2": "buy"
+        },
+        {
+            "id2": 2,
+            "img2": "",
+            "percent2": "99%",
+            "name2": "Makaroni Mantap Slurr",
+            "price2": "Rp. 15.000",
+            "hargaNormal2": "Harga Normal",
+            "potongan2": "Rp. 12.000",
+            "grade2": "(`50`)",
+            "txtTerjual2": "Terjual",
+            "txtStock2": "Stock",
+            "jmStock2": "(45)",
+            "hrefView2": "#",
+            "btnView2": "view",
+            "hrefBuy2": "#",
+            "btnBuy2": "buy"
+        }
+    ],
+    "CntPromoMinggu": [
+        {
+            "container": "cont-p-minggu"
+        }
+    ],
+    "CntPromoMingguETwo": [
+        {
+            "id1": 1,
+            "img1": "",
+            "percent1": "15%",
+            "name1": "Makaroni Original Rasa Keju",
+            "price1": "Rp. 20.000",
+            "hargaNormal1": "Harga Normal",
+            "potongan1": "Rp. 10.000",
+            "grade1": "(`50`)",
+            "txtTerjual1": "Terjual",
+            "txtStock1": "Stock",
+            "jmStock1": "(45)",
+            "hrefView1": "#",
+            "btnView1": "view",
+            "hrefBuy1": "#",
+            "btnBuy1": "buy"
+        },
+        {
+            "id1": 2,
+            "img1": "",
+            "percent1": "15%",
+            "name1": "Makaroni Original Rasa Keju",
+            "price1": "Rp. 20.000",
+            "hargaNormal1": "Harga Normal",
+            "potongan1": "Rp. 10.000",
+            "grade1": "(`50`)",
+            "txtTerjual1": "Terjual",
+            "txtStock1": "Stock",
+            "jmStock1": "(45)",
+            "hrefView1": "#",
+            "btnView1": "view",
+            "hrefBuy1": "#",
+            "btnBuy1": "buy"
+        }
+    ],
+    "CntPromoMingguEThree": [
+        {
+            "id2": 1,
+            "img2": "",
+            "percent2": "5%",
+            "name2": "Makaroni Panggang Balado",
+            "price2": "Rp. 15.000",
+            "hargaNormal2": "Harga Normal",
+            "potongan2": "Rp. 12.000",
+            "grade2": "(`50`)",
+            "txtTerjual2": "Terjual",
+            "txtStock2": "Stock",
+            "jmStock2": "(45)",
+            "hrefView2": "#",
+            "btnView2": "view",
+            "hrefBuy2": "#",
+            "btnBuy2": "buy"
+        },
+        {
+            "id2": 2,
+            "img2": "",
+            "percent2": "99%",
+            "name2": "Makaroni Panggang Manis",
+            "price2": "Rp. 15.000",
+            "hargaNormal2": "Harga Normal",
+            "potongan2": "Rp. 12.000",
+            "grade2": "(`50`)",
+            "txtTerjual2": "Terjual",
+            "txtStock2": "Stock",
+            "jmStock2": "(45)",
+            "hrefView2": "#",
+            "btnView2": "view",
+            "hrefBuy2": "#",
+            "btnBuy2": "buy"
+        }
+    ],
+    "RekeningE": [
+        {
+            "id": 1,
+            "img": "./image/bca.jpg",
+            "txtNoRekening": "Nomer Rekening :",
+            "noRekening": "121394977"
+        },
+        {
+            "id": 2,
+            "img": "./image/mandiri.jpg",
+            "txtNoRekening": "Nomer Rekening :",
+            "noRekening": "29913113"
+        },
+        {
+            "id": 3,
+            "img": "./image/bni.jpg",
+            "txtNoRekening": "Nomer Rekening :",
+            "noRekening": "19482748"
+        },
+        {
+            "id": 4,
+            "img": "./image/btn.jpg",
+            "txtNoRekening": "Nomer Rekening :",
+            "noRekening": "19843753"
+        },
+        {
+            "id": 5,
+            "img": "./image/permata.jpg",
+            "txtNoRekening": "Nomer Rekening :",
+            "noRekening": "454824297"
+        },
+        {
+            "id": 6,
+            "img": "./image/bri.jpg",
+            "txtNoRekening": "Nomer Rekening :",
+            "noRekening": "83842682"
+        }
+    ],
+    "ViewBoxIndicatorOneE": [
+        {
+            "txtJdlNamaMakanan": "Nama Makanan",
+            "namaProduk": "Makaroni Rasa Rumput Laut",
+            "priceProduk": "Rp. 20.000",
+            "txtJdlHargaNormal": "Harga Normal",
+            "priceDiscount": "Rp. 15.000",
+            "txtJdlTerjualP": "Total Terjual Produk",
+            "txtJmP": "(`50`)",
+            "txtTerjual": "Terjual",
+            "txtJdlJmTersediaP": "Jumlah Tersedia Produk",
+            "txtStock": "Stock (50)",
+            "txtJmLike": "200.",
+            "btnLike": "fas fa-thumbs-up",
+            "txtLike": "Jumlah Like",
+            "btnFavorit": "fas fa-heart",
+            "txtFavorit": "Tambahkan Sebagai Favorit",
+            "btnKeranjang": "fas fa-cart-plus",
+            "txtKeranjang": "Tambahkan ke Keranjang",
+            "txtJdlDeskP": "Deskripsi Makanan",
+            "txtDeskP": "Makanan ini mengandung boraks, namun rasanya tidak kalah dengan makanan yang telah dijamin kesehatannya. Komposisi : Boraks 90%, Pengawet 10%",
+            "toBtnLinkAllDesk": "/allDescriptionProduckBox1SemuaHarga",
+            "txtBtnLinkAllDesk": "Lihat Semua Deskripsi Makanan",
+            "txtKomentar": "Komentar",
+            "iconKomentar": "fas fa-comment-alt",
+            "txtTulisKomentar": "Tulis Komentar"
+        }
+    ],
+    "ViewBoxIndicatorOneETwo": [
+        {
+            "carouselItem": "carousel-item active",
+            "to": "/#",
+            "imgCarousel": "gambar.jpg"
+        },
+        {
+            "carouselItem": "carousel-item",
+            "to": "/#",
+            "imgCarousel": "gambar.jpg"
+        },
+        {
+            "carouselItem": "carousel-item",
+            "to": "/#",
+            "imgCarousel": "gambar.jpg"
+        }
+    ],
+    "ViewBoxIndicatorOneEThree": [
+        {
+            "id": 1,
+            "imgProfile": "gambar.jpg",
+            "namaProfile": "Mohamad Ridwan Apriyadi",
+            "bodyTxtUser": "Wow, Mantep bgt ini makanan.. Rasanya paling enak dari makaroni2 selain dari produk EbiStore!!",
+            "timeCommentUser": "03.00pm.sen-14-jul",
+            "btnLikeCommentUser": "fas fa-thumbs-up",
+            "txtJmLikeCommentUser": "(150)",
+            "btnDislikeCommentUser": "fas fa-thumbs-down",
+            "txtJmDislikeCommentUser": "(3)",
+            "btnDeleteCommentUser": "fas fa-trash-alt",
+            "txtDeleteCommentUser": "Hapus"
+        },
+        {
+            "id": 2,
+            "imgProfile": "gambar.jpg",
+            "namaProfile": "Frozen Cukamaka",
+            "bodyTxtUser": "Wow, Mantep bgt ini makanan.. Rasanya paling enak dari makaroni2 selain dari produk EbiStore!!",
+            "timeCommentUser": "03.00pm.sen-14-jul",
+            "btnLikeCommentUser": "fas fa-thumbs-up",
+            "txtJmLikeCommentUser": "(150)",
+            "btnDislikeCommentUser": "fas fa-thumbs-down",
+            "txtJmDislikeCommentUser": "(3)",
+            "btnDeleteCommentUser": "fas fa-trash-alt",
+            "txtDeleteCommentUser": "Hapus"
+        }
+    ],
+    "AllCommentBoxOneETwo": [
+        {
+            "id": 1,
+            "imgProfile": "gambar.jpg",
+            "namaProfile": "Mohamad Ridwan Apriyadi",
+            "imgCommentUser": "gambar.jpg",
+            "bodyTxtUser": "Wow, Mantep bgt ini makanan.. Rasanya paling enak dari makaroni2 selain dari produk EbiStore!!",
+            "timeCommentUser": "03.00pm.sen-14-jul",
+            "btnLikeCommentUser": "fas fa-thumbs-up",
+            "txtJmLikeCommentUser": "(150)",
+            "btnDislikeCommentUser": "fas fa-thumbs-down",
+            "txtJmDislikeCommentUser": "(5)",
+            "btnDeleteCommentUser": "fas fa-trash-alt",
+            "txtDeleteCommentUser": "Hapus"
+        },
+        {
+            "id": 2,
+            "imgProfile": "gambar.jpg",
+            "namaProfile": "Frozen Cukamaka",
+            "imgCommentUser": "gambar.jpg",
+            "bodyTxtUser": "Wow, Mantep bgt ini makanan.. Rasanya paling enak dari makaroni2 selain dari produk EbiStore!!",
+            "timeCommentUser": "03.00pm.sen-14-jul",
+            "btnLikeCommentUser": "fas fa-thumbs-up",
+            "txtJmLikeCommentUser": "(150)",
+            "btnDislikeCommentUser": "fas fa-thumbs-down",
+            "txtJmDislikeCommentUser": "(5)",
+            "btnDeleteCommentUser": "fas fa-trash-alt",
+            "txtDeleteCommentUser": "Hapus"
+        },
+        {
+            "id": 3,
+            "imgProfile": "gambar.jpg",
+            "namaProfile": "Onde Mande",
+            "imgCommentUser": "gambar.jpg",
+            "bodyTxtUser": "Wow, Mantep bgt ini makanan.. Rasanya paling enak dari makaroni2 selain dari produk EbiStore!!",
+            "timeCommentUser": "03.00pm.sen-14-jul",
+            "btnLikeCommentUser": "fas fa-thumbs-up",
+            "txtJmLikeCommentUser": "(150)",
+            "btnDislikeCommentUser": "fas fa-thumbs-down",
+            "txtJmDislikeCommentUser": "(5)",
+            "btnDeleteCommentUser": "fas fa-trash-alt",
+            "txtDeleteCommentUser": "Hapus"
+        },
+        {
+            "id": 4,
+            "imgProfile": "gambar.jpg",
+            "namaProfile": "Onde Mande",
+            "imgCommentUser": "gambar.jpg",
+            "bodyTxtUser": "Wow, Mantep bgt ini makanan.. Rasanya paling enak dari makaroni2 selain dari produk EbiStore!!",
+            "timeCommentUser": "03.00pm.sen-14-jul",
+            "btnLikeCommentUser": "fas fa-thumbs-up",
+            "txtJmLikeCommentUser": "(150)",
+            "btnDislikeCommentUser": "fas fa-thumbs-down",
+            "txtJmDislikeCommentUser": "(5)",
+            "btnDeleteCommentUser": "fas fa-trash-alt",
+            "txtDeleteCommentUser": "Hapus"
+        },
+        {
+            "id": 5,
+            "imgProfile": "gambar.jpg",
+            "namaProfile": "Onde Mande",
+            "imgCommentUser": "gambar.jpg",
+            "bodyTxtUser": "Wow, Mantep bgt ini makanan.. Rasanya paling enak dari makaroni2 selain dari produk EbiStore!!",
+            "timeCommentUser": "03.00pm.sen-14-jul",
+            "btnLikeCommentUser": "fas fa-thumbs-up",
+            "txtJmLikeCommentUser": "(150)",
+            "btnDislikeCommentUser": "fas fa-thumbs-down",
+            "txtJmDislikeCommentUser": "(5)",
+            "btnDeleteCommentUser": "fas fa-trash-alt",
+            "txtDeleteCommentUser": "Hapus"
+        },
+        {
+            "id": 6,
+            "imgProfile": "gambar.jpg",
+            "namaProfile": "Onde Mande",
+            "imgCommentUser": "gambar.jpg",
+            "bodyTxtUser": "Wow, Mantep bgt ini makanan.. Rasanya paling enak dari makaroni2 selain dari produk EbiStore!!",
+            "timeCommentUser": "03.00pm.sen-14-jul",
+            "btnLikeCommentUser": "fas fa-thumbs-up",
+            "txtJmLikeCommentUser": "(150)",
+            "btnDislikeCommentUser": "fas fa-thumbs-down",
+            "txtJmDislikeCommentUser": "(5)",
+            "btnDeleteCommentUser": "fas fa-trash-alt",
+            "txtDeleteCommentUser": "Hapus"
+        }
+    ],
+    "AllDescriptionProduckETwo": [
+        {
+            "jdlDsk": "Deskripsi",
+            "txtDskProduct": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis illum asperiores dignissimos eveniet reiciendis! Laudantium quidem doloribus numquam incidunt perferendis.",
+            "jdlKomp": "Komposisi",
+            "txtKompProduct": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sequi ullam error ipsa nisi labore harum cupiditate, blanditiis unde excepturi iste repellendus nihil, voluptas necessitatibus repellat, quam quibusdam optio sapiente!"
+        }
+    ],
+    "AlamatUser": [
+        {
+            "jalan": "sunan",
+            "RtRw": "12",
+            "desaDanKecamatan": "bojong",
+            "kota": "aa",
+            "kodePos": "11"
+        }
+    ],
+    "daftarPercobaan": [
+        {
+            "namaDepan": "Mohamad Ridwan",
+            "namaBelakang": "Apriyadi",
+            "password": "***"
+        }
+    ]
+}

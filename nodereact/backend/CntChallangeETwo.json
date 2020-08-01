@@ -1,0 +1,16 @@
+{
+    "CntChallangeETwo": [
+        {
+            "img1": "",
+            "txt1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ut eligendi at deserunt nam nulla.",
+            "btn1": "Check"
+        }
+    ],
+    "CntChallangeEThree": [
+        {
+            "img2": "",
+            "txt2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ut eligendi at deserunt nam nulla.",
+            "btn2": "Check-in"
+        }
+    ]
+}

@@ -1,0 +1,327 @@
+.section-all-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  border-top: 1px solid #aaa;
+  padding: 5px 0 5px 0;
+  margin: 50px 0 0 0;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-name-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0 5px 10px;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-name-user .circle-pic-u {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 35px;
+  width: 35px;
+  background: #ddd;
+  -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 500px;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-name-user .circle-pic-u .img-u {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-name-user .name-u {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: auto;
+  margin: 0 0 0 8px;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-name-user .name-u .txt-name-u {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+  text-align: start;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-name-user .rate-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2px 0 0 5px;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-name-user .rate-comment ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-name-user .rate-comment ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 3px 0 0;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-name-user .rate-comment ul li i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 8px;
+  color: gold;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-txt-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 10px 5px 10px;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-txt-user .body-txt-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: auto;
+  background: #fff;
+  border-radius: 3px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 10px 5px 10px 5px;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-txt-user .body-txt-user .col-img-comment-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 180px;
+  width: 200px;
+  background: #ddd;
+  -webkit-box-shadow: 0px 2px 3px -1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 2px 3px -1px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  margin: 0 0 10px 0;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-txt-user .body-txt-user .col-img-comment-user .img-comment-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-txt-user .body-txt-user .txt-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+  text-align: start;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-txt-user .body-txt-user .time-comment-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #34495e;
+  text-align: start;
+  padding: 10px 0 0 0;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-btn-comment-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0 0 20px;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-btn-comment-user .w-btn-like {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: auto;
+  padding: 2px 2px 2px 0px;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-btn-comment-user .w-btn-like .btn-like {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  padding: 2px 5px 2px 2px;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-btn-comment-user .w-btn-like .btn-like i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10px;
+  color: #34495e;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-btn-comment-user .w-btn-like .txt-jm-like {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 9px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-btn-comment-user .w-btn-dislike {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: auto;
+  padding: 2px 2px 2px 5px;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-btn-comment-user .w-btn-dislike .btn-dislike {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  padding: 2px 5px 2px 2px;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-btn-comment-user .w-btn-dislike .btn-dislike i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10px;
+  color: #34495e;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-btn-comment-user .w-btn-dislike .txt-jm-dislike {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 9px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-btn-comment-user .w-btn-delete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: auto;
+  padding: 2px 2px 2px 5px;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-btn-comment-user .w-btn-delete .btn-delete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  padding: 2px 5px 2px 2px;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-btn-comment-user .w-btn-delete .btn-delete i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10px;
+  color: #34495e;
+  overflow: hidden;
+}
+
+.section-all-comment .kol-btn-comment-user .w-btn-delete .txt-delete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 9px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+  overflow: hidden;
+}
+/*# sourceMappingURL=AllCommentBox1E2.css.map */

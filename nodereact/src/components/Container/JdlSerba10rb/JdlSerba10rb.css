@@ -1,0 +1,141 @@
+.l-j-s-10rb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  width: auto;
+  background: #ddd;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 80px 20px 10px 20px;
+  overflow: hidden;
+}
+
+.l-j-s-10rb .point1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: #34495e;
+  overflow: hidden;
+  -webkit-animation: point1 920ms ease infinite;
+          animation: point1 920ms ease infinite;
+}
+
+.l-j-s-10rb .point2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: #34495e;
+  overflow: hidden;
+  -webkit-animation: point2 920ms ease infinite;
+          animation: point2 920ms ease infinite;
+}
+
+.l-j-s-10rb .point3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: #34495e;
+  overflow: hidden;
+  -webkit-animation: point3 920ms ease infinite;
+          animation: point3 920ms ease infinite;
+}
+
+@-webkit-keyframes point1 {
+  0% {
+    margin-top: 0px;
+  }
+  5% {
+    margin-top: -10px;
+  }
+  30% {
+    margin-top: 6px;
+  }
+  60% {
+    margin-top: -18px;
+  }
+}
+
+@keyframes point1 {
+  0% {
+    margin-top: 0px;
+  }
+  5% {
+    margin-top: -10px;
+  }
+  30% {
+    margin-top: 6px;
+  }
+  60% {
+    margin-top: -18px;
+  }
+}
+
+@-webkit-keyframes point2 {
+  0% {
+    margin-top: 0px;
+  }
+  10% {
+    margin-top: -18px;
+  }
+  50% {
+    margin-top: 0px;
+  }
+  70% {
+    margin-top: -10px;
+  }
+}
+
+@keyframes point2 {
+  0% {
+    margin-top: 0px;
+  }
+  10% {
+    margin-top: -18px;
+  }
+  50% {
+    margin-top: 0px;
+  }
+  70% {
+    margin-top: -10px;
+  }
+}
+
+@-webkit-keyframes point3 {
+  0% {
+    margin-top: 0px;
+  }
+  15% {
+    margin-top: -25px;
+  }
+  70% {
+    margin-top: 0;
+  }
+}
+
+@keyframes point3 {
+  0% {
+    margin-top: 0px;
+  }
+  15% {
+    margin-top: -25px;
+  }
+  70% {
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=JdlSerba10rb.css.map */

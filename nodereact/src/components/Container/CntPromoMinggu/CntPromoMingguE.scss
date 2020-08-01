@@ -1,0 +1,169 @@
+.cont-p-minggu{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background: #34495e25;
+    padding: 0 0 30px 0;
+    overflow: hidden;
+
+    // Bar
+    .col-bar{
+        display: flex;
+        position: fixed;
+        height: 50px;
+        width: 100%;
+        background: #152238;
+        box-shadow: 0 3px 6px -1px rgba(0,0,0,0.5);
+        overflow: hidden;
+        z-index: 100;
+
+        // Button Back
+        .btn-back{
+            display: flex;
+            height: auto;
+            width: 50px;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+
+            .btn{
+                display: flex;
+                font-size: 20px;
+                color: #fff;
+                padding: 5px;
+                text-align: none;
+                overflow: hidden;
+
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+        }
+        // END Button Back
+
+        // Title1 Bar
+        .title1-bar{
+            display: flex;
+            height: auto;
+            width: auto;
+            align-items: center;
+            padding: 0 0px 0 5px;
+            overflow: hidden;
+            
+            .txt-tit1{
+                display: flex;
+                font-size: 15px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #F1D0A5;
+                overflow: hidden;
+            }
+        }
+        // END Title1 Bar
+
+        // Title2 Bar
+        .title2-bar{
+            display: flex;
+            height: auto;
+            width: auto;
+            align-items: center;
+            padding: 0 0 0 5px;
+            overflow: hidden;
+
+            &::before{
+                content: '';
+                height: 30px;
+                width: 1.5px;
+                background: #fff;
+                border-radius: 2px;
+                margin: 0 7px 0 2px;
+                overflow: hidden;
+            }
+
+            .txt-tit2{
+                display: flex;
+                font-size: 15px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #F1D0A5;
+                overflow: hidden;
+            }
+        }
+        // END Title2 Bar
+        
+    }
+    // END Bar
+
+    // Papan Deskripsi Promo
+    .col-p-d-promo{
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 5px 15px -1px rgba(0,0,0,0.4);
+        justify-content: center;
+        align-items: center;
+        padding: 0 25px 0 25px;
+        margin: 50px 0 50px 0;
+        overflow: hidden;
+
+        .txt-desk{
+            display: flex;
+            font-size: 15px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #222;
+            text-align: center;
+            margin: 0 0 15px 0;
+            overflow: hidden;
+        }
+
+        .txt-ket-time-desk{
+            display: flex;
+            font-size: 15px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #36BCEF;
+            overflow: hidden;
+        }
+
+        .txt-time{
+            display: flex;
+            font-size: 15px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #36BCEF;
+            overflow: hidden;
+        }
+    }
+    // END Papan Deskripsi Promo
+
+    // Column Box
+    .col-box{
+        display: flex;
+        height: auto;
+        width: 100%;
+        margin: 0 0 25px 0;
+        overflow: hidden;
+
+        // Column1
+        .column1-box{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 50%;
+            padding: 1% 1% 1% 1%;
+            overflow: hidden;
+        }
+        // END Column1
+
+        // Column2
+        .column2-box{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 50%;
+            padding: 1% 1% 1% 1%;
+            overflow: hidden;
+        }
+        // END Column2
+    }
+    // END Column Box
+}

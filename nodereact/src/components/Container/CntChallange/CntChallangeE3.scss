@@ -1,0 +1,104 @@
+// Column1
+.col1-s2{
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    width: 100%;
+    background: transparent;
+    overflow: hidden;
+
+    // Column Box
+    .col-box-s2{
+        display: flex;
+        height: auto;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        overflow: hidden;
+
+        .box-s2{
+            display: flex;
+            height: 150px;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0 3px 6px -1px rgba(0,0,0,0.4);
+            border-radius: 10px;
+            overflow: hidden;
+
+            .img-s2{
+                display: flex;
+                height: 100%;
+                width: 100%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                overflow: hidden;
+                // Font for IMG
+                font-size: 15px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-style: italic;
+                color: #34495e;
+            }
+        }
+    }
+    // END Column Box
+
+    // Column Text
+    .col-txt-s2{
+        display: flex;
+        height: auto;
+        width: 50%;
+        padding: 3%;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        
+        .txt-s2{
+            display: flex;
+            font-size: 14px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #222;
+            text-align: justify;
+            overflow: hidden;
+        }
+    }
+    // END Column Text
+}
+// END Column1
+
+// Column2
+.col2-s2{
+    display: flex;
+    height: 55px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    overflow: hidden;
+
+    .btn-check-s2{
+        display: flex;
+        height: 40px;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 3px 7px -1px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        overflow: hidden;
+        // For font size
+        font-size: 15px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #34495e;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+
+        &:hover{
+            height: 37px;
+            width: 98%;
+            box-shadow: 0 2px 6px -1px rgba(0,0,0,0.2);
+            transition: 100ms ease;
+        }
+    }
+}
+// END Column2

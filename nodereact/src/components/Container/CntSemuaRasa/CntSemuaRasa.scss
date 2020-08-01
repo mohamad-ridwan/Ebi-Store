@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.loading{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background: #eee;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0px 0;
+    overflow: hidden;
+
+    .load{
+        display: flex;
+        font-size: 15px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: italic;
+        font-weight: 500;
+        color: #34495e;
+        margin: 30px 0 0 0;
+        overflow: hidden;
+    }
+
+    .point-a{
+        display: flex;
+        height: 30px;
+        width: 50px;
+        background: transparent;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        .point1{
+            display: flex;
+            font-size: 30px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            color: #34495e;
+            overflow: hidden;
+            animation: point1 920ms ease infinite;
+        }
+        
+        .point2{
+            display: flex;
+            font-size: 30px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            color: #34495e;
+            overflow: hidden;
+            animation: point2 920ms ease infinite;
+        }
+    
+        .point3{
+            display: flex;
+            font-size: 30px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            color: #34495e;
+            overflow: hidden;
+            animation: point3 920ms ease infinite;
+        }
+    }
+
+    .box-load{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 43%;
+        background: #fff;
+        box-shadow: 0 0 15px -1px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        margin: 30px 0 20px 0;
+        overflow: hidden;
+
+        // Kolom1
+        .kol1{
+            display: flex;
+            height: 140px;
+            width: 100%;
+            background: #ddd;
+            overflow: hidden;
+        }
+        // END Kolom1
+
+        // Kolom2
+        .kol2{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+            padding: 15px 0 0 10px;
+            overflow: hidden;
+
+            .sub1{
+                display: flex;
+                height: 10px;
+                width: 70%;
+                background: #aaa;
+                border-radius: 200px;
+                overflow: hidden;
+            }
+
+            .sub2{
+                display: flex;
+                height: 10px;
+                width: 45%;
+                background: #aaa;
+                border-radius: 200px;
+                margin: 20px 0 0 0;
+                overflow: hidden;
+            }
+        }
+        // END Kolom2
+
+        // Kolom3
+        .kol3{
+            display: flex;
+            height: auto;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 0 10px 0;
+            overflow: hidden;
+
+            .kol-tit1{
+                display: flex;
+                height: auto;
+                width: 50%;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+
+                .tit1{
+                    display: flex;
+                    height: 25px;
+                    width: 55px;
+                    background: #aaa;
+                    border-radius: 200px;
+                    overflow: hidden;
+                }
+            }
+
+            .kol-tit2{
+                display: flex;
+                height: auto;
+                width: 50%;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+
+                .tit2{
+                    display: flex;
+                    height: 25px;
+                    width: 55px;
+                    background: #aaa;
+                    border-radius: 200px;
+                    overflow: hidden;
+                }
+            } 
+        }
+        // END Kolom3
+    }
+}
+
+// Animation for loading judul serba 10rb
+// Point1
+@keyframes point1{
+    0%{
+        margin-top: 0px;
+    }
+    5%{
+        margin-top: -10px;
+    }
+    30%{
+        margin-top: 6px;
+    }
+    60%{
+        margin-top: -18px;
+    }
+}
+// END Point1
+// END Animation for loading judul serba 10rb
+
+// Animation for loading judul serba 10rb
+// Point2
+@keyframes point2{
+    0%{
+        margin-top: 0px;
+    }
+    10%{
+        margin-top: -18px;
+    }
+    50%{
+        margin-top: 0px;
+    }
+    70%{
+        margin-top: -10px;
+    }
+}
+// END Point2
+// END Animation for loading judul serba 10rb
+
+// Animation for loading judul serba 10rb
+// Point3
+@keyframes point3{
+    0%{
+        margin-top: 0px;
+    }
+    15%{
+        margin-top: -25px;
+    }
+    70%{
+        margin-top: 0;
+    }
+}
+// END Point3
+// END Animation for loading judul serba 10rb

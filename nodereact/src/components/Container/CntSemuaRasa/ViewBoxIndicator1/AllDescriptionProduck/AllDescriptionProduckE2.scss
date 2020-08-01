@@ -1,0 +1,74 @@
+// Kolom Description Product
+.col-jdl-desk-all-desk-produck{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding: 30px 0 0 0;
+    overflow: hidden;
+
+    .jdl-dsk{
+        display: flex;
+        font-size: 18px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        color: #333;
+        margin: 10px 10px 10px 15px;
+        overflow: hidden;
+    }
+
+    .col-txt-dsk{
+        display: flex;
+        height: auto;
+        width: auto;
+        padding: 5px 25px 5px 25px;
+        overflow: hidden;
+
+        .txt-dsk-produck{
+            display: flex;
+            font-size: 14px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #333;
+            text-align: start;
+            overflow: hidden;
+        }
+    }
+}
+// END Kolom Desctiption Product
+
+// Kolom Komposisi Product
+.col-jdl-komp-all-desk-produck{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+
+    .jdl-komp{
+        display: flex;
+        font-size: 18px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        color: #333;
+        margin: 10px 10px 10px 15px;
+        overflow: hidden;
+    }
+
+    .col-txt-komp{
+        display: flex;
+        height: auto;
+        width: auto;
+        padding: 5px 25px 5px 25px;
+        overflow: hidden;
+
+        .txt-komp-produck{
+            display: flex;
+            font-size: 14px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #333;
+            text-align: start;
+            overflow: hidden;
+        }
+    }
+}
+// END Kolom Komposisi Product

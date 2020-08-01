@@ -1,0 +1,276 @@
+.c-n-b-e {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  height: 55px;
+  width: 100%;
+  background: #152238;
+  -webkit-box-shadow: 0 -2px 5px -1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 -2px 5px -1px rgba(0, 0, 0, 0.3);
+  padding: 0 0 0 0px;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 20;
+}
+
+.c-n-b-e .container-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0px 0% 0 0;
+  overflow: hidden;
+}
+
+.c-n-b-e .container-home .btn-navbottom {
+  font-size: 20px;
+  color: #eee;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  text-decoration: none;
+}
+
+.c-n-b-e .container-home .btn-navbottom:hover {
+  color: #aaa;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out;
+}
+
+.c-n-b-e .container-home .btn-navbottom .beranda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  margin: -5px 0 0 0;
+}
+
+.c-n-b-e .container-shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0px 0% 0 3%;
+  overflow: hidden;
+}
+
+.c-n-b-e .container-shop .btn-navbottom {
+  font-size: 20px;
+  color: #eee;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  text-decoration: none;
+}
+
+.c-n-b-e .container-shop .btn-navbottom:hover {
+  color: #aaa;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out;
+}
+
+.c-n-b-e .container-shop .btn-navbottom .keranjang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  margin: -5px 0 0 0;
+}
+
+.c-n-b-e .container-favorite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0px 0% 0 3%;
+  overflow: hidden;
+}
+
+.c-n-b-e .container-favorite .btn-navbottom {
+  font-size: 20px;
+  color: #eee;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  text-decoration: none;
+  margin: 0 6% 0 0;
+  overflow: hidden;
+}
+
+.c-n-b-e .container-favorite .btn-navbottom:hover {
+  color: #aaa;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out;
+}
+
+.c-n-b-e .container-favorite .btn-navbottom .favorite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  margin: -5px 0 0 0;
+  overflow: hidden;
+}
+
+.c-n-b-e .container-notif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0px 0% 0 0;
+  overflow: hidden;
+}
+
+.c-n-b-e .container-notif .btn-navbottom {
+  font-size: 20px;
+  color: #eee;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  text-decoration: none;
+  margin: 0 0% 0 0;
+  overflow: hidden;
+}
+
+.c-n-b-e .container-notif .btn-navbottom:hover {
+  color: #aaa;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out;
+}
+
+.c-n-b-e .container-notif .btn-navbottom .notif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  margin: -5px 0 0 0;
+}
+
+.c-n-b-e .container-chatting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 0px 0% 0 0;
+  overflow: hidden;
+}
+
+.c-n-b-e .container-chatting .btn-navbottom {
+  font-size: 20px;
+  color: #eee;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  text-decoration: none;
+}
+
+.c-n-b-e .container-chatting .btn-navbottom:hover {
+  color: #aaa;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out;
+}
+
+.c-n-b-e .container-chatting .btn-navbottom .chatting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  margin: -5px 0 0 0;
+}
+/*# sourceMappingURL=NavBottomE.css.map */

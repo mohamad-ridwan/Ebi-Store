@@ -1,0 +1,609 @@
+.cont-profil-akun{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background: #eee;
+    margin: 0 0 55px 0;
+    padding: 0 0 200px 0;
+    overflow: hidden;
+
+    // Column1
+    .col1-profil-akun{
+        display: flex;
+        height: 50px;
+        width: 100%;
+        background: #152238;
+        box-shadow: 0 3px 6px -1px rgba(0,0,0,0.5);
+        overflow: hidden;
+
+        .btn-back{
+            display: flex;
+            height: auto;
+            width: 50px;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+
+            .btn{
+                display: flex;
+                font-size: 20px;
+                color: #fff;
+                padding: 5px;
+                text-decoration: none;
+                overflow: hidden;
+                
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .bar-title{
+            display: flex;
+            height: auto;
+            width: 100%;
+            align-items: center;
+            padding: 0 0 0 20px;
+            overflow: hidden;
+
+            .text-title{
+                display: flex;
+                font-size: 18px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #F1D0A5;
+                overflow: hidden;
+            }
+        }
+    }
+    // END Column1
+
+    // Column2
+    .col2-profil-akun{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 3px 6px -1px rgba(0,0,0,0.5);
+        margin: 0 0 0px 0;
+        padding: 0 0 10px 0;
+        overflow: hidden;
+        z-index: 100;
+
+        // Section1
+        .sec1-col2-p-a{
+            display: flex;
+            flex-direction: row-reverse;
+            height: auto;
+            width: 100%;
+            align-items: center;
+            padding: 5px;
+            overflow: hidden;
+
+            .btn-setting{
+                display: flex;
+                height: auto;
+                width: auto;
+                align-items: center;
+                text-decoration: none;
+                padding: 5px;
+                overflow: hidden;
+
+                i{
+                    display: flex;
+                    font-size: 15px;
+                    color: #333;
+                    margin: 2px 5px 0 0;
+                    overflow: hidden;
+                }
+
+                .txt-setting{
+                    display: flex;
+                    font-size: 10px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-weight: 500;
+                    color: #333;
+                    overflow: hidden;
+                }
+            }
+        }
+        // END Section1
+
+        // Section2
+        .sec2-col2-p-a{
+            display: flex;
+            flex-direction: row;
+            height: auto;
+            width: 100%;
+            padding: 0 0 0 5px;
+            overflow: hidden;
+
+            // Row1
+            .row1{
+                display: flex;
+                height: auto;
+                width: 60px;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+
+                .circle-img-profil-akun{
+                    display: flex;
+                    height: 40px;
+                    width: 40px;
+                    background: #eee;
+                    box-shadow: 0 2px 5px -1px rgba(0,0,0,0.5);
+                    border-radius: 500px;
+                    overflow: hidden;
+
+                    .img-p-a{
+                        display: flex;
+                        height: 100%;
+                        width: 100%;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        overflow: hidden;
+                    }
+                }
+            }
+            // END Row1
+
+            // Row2
+            .row2{
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                width: 100%;
+                overflow: hidden;
+
+                // Bagian1
+                .bagian1-row2{
+                    display: flex;
+                    height: auto;
+                    width: 100%;
+                    align-items: center;
+                    padding: 3px;
+                    overflow: hidden;
+
+                    .btn-edit-profil{
+                        display: flex;
+                        height: auto;
+                        width: auto;
+                        text-decoration: none;
+                        padding: 2px 2px 2px 0;
+                        align-items: center;
+                        overflow: hidden;
+
+                        i{
+                            display: flex;
+                            font-size: 13px;
+                            color: #333;
+                            margin: 0 3px 0 0;
+                            padding: 1px;
+                            overflow: hidden;
+                        }
+
+                        .txt-edit-profil{
+                            display: flex;
+                            font-size: 10px;
+                            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 500;
+                            color: #333;
+                            overflow: hidden;
+                        }
+                    }
+                }
+                // END Bagian1
+
+                // Bagian2
+                .bagian2-row2{
+                    display: flex;
+                    height: auto;
+                    width: 100%;
+                    overflow: hidden;
+
+                    .jdl-nama-profil{
+                        display: flex;
+                        height: auto;
+                        width: 50%;
+                        align-items: center;
+                        padding: 2px;
+                        overflow: hidden;
+
+                        .txt-jdl-nama-profil{
+                            display: flex;
+                            font-size: 10px;
+                            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-weight: 500;
+                            color: #333;
+                            overflow: hidden;
+                        }
+                    }
+
+                    .ket-ferivikasi-nonferivikasi{
+                        display: flex;
+                        flex-direction: column;
+                        height: auto;
+                        width: auto;
+                        padding: 2px;
+                        overflow: hidden;
+
+                        // Terferivikasi
+                        .terferivikasi{
+                            display: flex;
+                            height: auto;
+                            width: auto;
+                            align-items: center;
+                            padding: 1px;
+                            overflow: hidden;
+
+                            i{
+                                display: flex;
+                                font-size: 9px;
+                                color: #36BCEF;
+                                margin: 0 3px 0 0;
+                                padding: 1px;
+                                overflow: hidden;
+                            }
+
+                            .txt-terferivikasi{
+                                display: flex;
+                                font-size: 9px;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-weight: 500;
+                                color: #36BCEF;
+                                overflow: hidden;
+                            }
+                        }
+                        // END Terferivikasi
+
+                        // Non Terferivikasi
+                        .non-terferivikasi{
+                            display: flex;
+                            height: auto;
+                            width: auto;
+                            align-items: center;
+                            padding: 1px;
+                            overflow: hidden;
+
+                            i{
+                                display: flex;
+                                font-size: 9px;
+                                color: #E11414;
+                                margin: 0 3px 0 0;
+                                padding: 1px;
+                                overflow: hidden;
+                            }
+
+                            .txt-non-terferivikasi{
+                                display: flex;
+                                font-size: 9px;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-weight: 500;
+                                color: #E11414;
+                                overflow: hidden;
+                            }
+                        }
+                        // END Non Terferivikasi
+                        
+                    }
+                }
+                // END Bagian2
+
+                // Bagian3
+                .bagian3-row2{
+                    display: flex;
+                    flex-direction: column;
+                    height: auto;
+                    width: 100%;
+                    overflow: hidden;
+
+                    // Column1 Bagian3
+                    .col1-bagian3{
+                        display: flex;
+                        height: auto;
+                        width: 100%;
+                        align-items: center;
+                        overflow: hidden;
+
+                        .nama-profil{
+                            display: flex;
+                            height: auto;
+                            width: auto;
+                            align-items: center;
+                            padding: 5px 2px 2px 2px;
+                            overflow: hidden;
+
+                            .txt-nama-profil{
+                                display: flex;
+                                font-size: 15px;
+                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-weight: 500;
+                                color: #333;
+                                overflow: hidden;
+                            }
+                        }
+                    }
+                    // END Column1 Bagian3
+
+                    // Column2 Bagian3
+                    .col2-bagian3{
+                        display: flex;
+                        height: auto;
+                        width: 100%;
+                        padding: 10px 0 0 0;
+                        overflow: hidden;
+
+                        // Info Email
+                        .info-akun-email{
+                            display: flex;
+                            flex-direction: column;
+                            height: auto;
+                            width: auto;
+                            overflow: hidden;
+
+                            .jdl-akun-email{
+                                display: flex;
+                                height: auto;
+                                width: auto;
+                                align-items: center;
+                                padding: 2px;
+                                overflow: hidden;
+
+                                i{
+                                    display: flex;
+                                    font-size: 9px;
+                                    color: #333;
+                                    margin: -1px 3px 0 0;
+                                    padding: 1px;
+                                    overflow: hidden;
+                                }
+
+                                .txt-jdl-akun-email{
+                                    display: flex;
+                                    font-size: 9px;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-weight: 500;
+                                    color: #333;
+                                    text-align: start;
+                                    padding: 0 0 2px 0;
+                                    overflow: hidden;
+                                }
+                            }
+
+                            .akun-email{
+                                display: flex;
+                                height: auto;
+                                width: auto;
+                                padding: 2px;
+                                overflow: hidden;
+
+                                .txt-akun-email{
+                                    display: flex;
+                                    font-size: 10px;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-weight: 500;
+                                    color: #333;
+                                    overflow: hidden;
+                                }
+                            }
+                        }
+                        // END Info Email
+
+                        // Info Phone
+                        .info-akun-phone{
+                            display: flex;
+                            flex-direction: column;
+                            height: auto;
+                            width: auto;
+                            padding: 0 0 0 5px;
+                            overflow: hidden;
+
+                            .jdl-akun-phone{
+                                display: flex;
+                                height: auto;
+                                width: auto;
+                                align-items: center;
+                                padding: 2px;
+                                overflow: hidden;
+
+                                i{
+                                    display: flex;
+                                    font-size: 9px;
+                                    color: #333;
+                                    margin: 0px 3px 0 0;
+                                    padding: 1px;
+                                    overflow: hidden;
+                                }
+
+                                .txt-jdl-akun-phone{
+                                    display: flex;
+                                    font-size: 9px;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-weight: 500;
+                                    color: #333;
+                                    text-align: start;
+                                    padding: 0 0 2px 0px;
+                                    overflow: hidden;
+                                }
+                            }
+
+                            .akun-phone{
+                                display: flex;
+                                height: auto;
+                                width: auto;
+                                padding: 2px;
+                                overflow: hidden;
+
+                                .txt-akun-phone{
+                                    display: flex;
+                                    font-size: 10px;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-weight: 500;
+                                    color: #333;
+                                    overflow: hidden;
+                                }
+                            }
+                        }
+                        // END Info Phone
+                    }
+                    // END Column2 Bagian3
+                }
+                // END Bagian3
+            }
+            // END Row2
+        }
+        // END Section2
+    }
+    // END Column2
+
+    // Column3
+    .col3-profil-akun{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background: #eee;
+        padding: 10px 0 10px 0;
+        overflow: hidden;
+
+        // Section1
+        .section1{
+            display: flex;
+            height: auto;
+            width: 100%;
+            align-items: center;
+            padding: 5px 5px 5px 5px;
+            overflow: hidden;
+
+            i{
+                display: flex;
+                font-size: 20px;
+                color: #152238;
+                margin: 0 5px 0 0;
+                padding: 1px;
+                overflow: hidden;
+            }
+
+            .txt-jdl-alamat{
+                display: flex;
+                font-size: 12px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                color: #333;
+                overflow: hidden;
+            }
+        }
+        // END Section1
+
+        // Section2
+        .section2{
+            display: flex;
+            height: auto;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 10px 10px 10px;
+            overflow: hidden;
+
+            i{
+                display: flex;
+                font-size: 25px;
+                color: #152338;
+                padding: 5px 10px 5px 5px;
+                overflow: hidden;
+            }
+
+            .txt-jdl-warning{
+                display: flex;
+                font-size: 13px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                color: #333;
+                text-align: justify;
+                overflow: hidden;
+            }
+        }
+        // END Section2
+
+        // Section3
+        .section3{
+            display: flex;
+            height: auto;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            overflow: hidden;
+
+            i{
+                display: flex;
+                font-size: 18px;
+                color: #333;
+                padding: 5px 10px 5px 5px;
+                overflow: hidden;
+            }
+
+            .txt-warning-form{
+                display: flex;
+                font-size: 10px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                color: #333;
+                text-align: justify;
+                overflow: hidden;
+            }
+        }
+        // END Section3
+        
+        // Section4
+        .section4{
+            display: flex;
+            height: 80px;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            overflow: hidden;
+         
+            .btn-isi-form{
+                display: flex;
+                height: 40px;
+                width: 123px;
+                background: #152238;
+                box-shadow: 0 3px 6px -1px rgba(0,0,0,0.5);
+                border-radius: 10px;
+                overflow: hidden;
+                // For Font
+                font-size: 10px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 500;
+                color: #fff;
+                text-decoration: none;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+
+                &:hover{
+                    height: 42px;
+                    width: 125px;
+                    box-shadow: 0 4px 7px -1px rgba(0,0,0,0.5);
+                }
+            }
+        }
+        // END Section4
+    }
+    // END Column3
+
+    // Column4
+    .col4-profil-akun{
+        display: flex;
+        height: 100px;
+        width: 100%;
+        border: 1px solid red;
+        overflow: hidden;
+    }
+    // END Column4
+}

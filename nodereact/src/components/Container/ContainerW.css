@@ -1,0 +1,458 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wadah-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.wadah-container .w-loading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background: #152238;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.wadah-container .w-loading .icon-logo-web {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  width: 80px;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.wadah-container .w-loading .name-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.wadah-container .w-loading .name-logo .name1-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 35px;
+  font-family: 'Fredoka One', cursive;
+  color: ghostwhite;
+  overflow: hidden;
+}
+
+.wadah-container .w-loading .name-logo .name2-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: 'Fredoka One', cursive;
+  color: ghostwhite;
+  margin: 14px 0 0 0px;
+  overflow: hidden;
+}
+
+.wadah-container .w-loading .name-logo .name2-logo::after {
+  content: '.com';
+  color: #F1D0A5;
+  margin: 0 0 0 1px;
+  overflow: hidden;
+}
+
+.wadah-container .w-loading svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  margin: 50px 0 0 0;
+  overflow: hidden;
+  -webkit-animation: Arotate 1s linear infinite;
+          animation: Arotate 1s linear infinite;
+}
+
+.wadah-container .w-loading svg circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  fill: none;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke: #fff;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  -webkit-animation: Arotation 3s ease-in-out infinite;
+          animation: Arotation 3s ease-in-out infinite;
+}
+
+.wadah-container .c-txt-load {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 33px;
+  width: auto;
+  background: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0 0 0;
+  margin: 10px 0 0 0;
+  overflow: hidden;
+}
+
+.wadah-container .c-txt-load .txt-load1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: 'Fredoka One';
+  color: #F1D0A5;
+  overflow: hidden;
+  -webkit-animation: load1 700ms linear infinite;
+          animation: load1 700ms linear infinite;
+}
+
+.wadah-container .c-txt-load .txt-load2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: 'Fredoka One';
+  color: #F1D0A5;
+  overflow: hidden;
+  -webkit-animation: load2 700ms linear infinite;
+          animation: load2 700ms linear infinite;
+}
+
+.wadah-container .c-txt-load .txt-load3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: 'Fredoka One';
+  color: #F1D0A5;
+  overflow: hidden;
+  -webkit-animation: load3 700ms linear infinite;
+          animation: load3 700ms linear infinite;
+}
+
+.wadah-container .c-txt-load .txt-load4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: 'Fredoka One';
+  color: #F1D0A5;
+  margin: 0 1px 0 5px;
+  overflow: hidden;
+  -webkit-animation: load4 700ms linear infinite;
+          animation: load4 700ms linear infinite;
+}
+
+.wadah-container .c-txt-load .txt-load5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: 'Fredoka One';
+  color: #F1D0A5;
+  overflow: hidden;
+  -webkit-animation: load5 700ms linear infinite;
+          animation: load5 700ms linear infinite;
+}
+
+.wadah-container .c-txt-load .txt-load6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: 'Fredoka One';
+  color: #F1D0A5;
+  overflow: hidden;
+  -webkit-animation: load6 700ms linear infinite;
+          animation: load6 700ms linear infinite;
+}
+
+.wadah-container .c-txt-load .txt-load7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: 'Fredoka One';
+  color: #F1D0A5;
+  overflow: hidden;
+  -webkit-animation: load7 700ms linear infinite;
+          animation: load7 700ms linear infinite;
+}
+
+.wadah-container .store-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 80px 0 0 0;
+  overflow: hidden;
+}
+
+.wadah-container .store-logo .icon-shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  width: 30px;
+  overflow: hidden;
+}
+
+.wadah-container .store-logo .w-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  margin: 0 15px 0 15px;
+  overflow: hidden;
+}
+
+.wadah-container .store-logo .w-txt .txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  font-family: 'roboto';
+  color: ghostwhite;
+  text-align: center;
+  margin: 10px 0 0 0;
+  overflow: hidden;
+}
+
+@-webkit-keyframes Alogo {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(50000deg);
+            transform: rotate(50000deg);
+  }
+}
+
+@keyframes Alogo {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(50000deg);
+            transform: rotate(50000deg);
+  }
+}
+
+@-webkit-keyframes Arotation {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  30% {
+    stroke-dashoffset: 0;
+  }
+  30.1% {
+    stroke-dashoffset: 198;
+  }
+}
+
+@keyframes Arotation {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  30% {
+    stroke-dashoffset: 0;
+  }
+  30.1% {
+    stroke-dashoffset: 198;
+  }
+}
+
+@-webkit-keyframes Arotate {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes Arotate {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes load1 {
+  0% {
+    margin: 0;
+  }
+  40% {
+    margin-top: -15px;
+  }
+}
+
+@keyframes load1 {
+  0% {
+    margin: 0;
+  }
+  40% {
+    margin-top: -15px;
+  }
+}
+
+@-webkit-keyframes load2 {
+  0% {
+    margin-top: 0;
+  }
+  55% {
+    margin-top: -27px;
+  }
+}
+
+@keyframes load2 {
+  0% {
+    margin-top: 0;
+  }
+  55% {
+    margin-top: -27px;
+  }
+}
+
+@-webkit-keyframes load3 {
+  0% {
+    margin-top: 0;
+  }
+  70% {
+    margin-top: -30px;
+  }
+}
+
+@keyframes load3 {
+  0% {
+    margin-top: 0;
+  }
+  70% {
+    margin-top: -30px;
+  }
+}
+
+@-webkit-keyframes load4 {
+  0% {
+    margin-top: 0;
+  }
+  40% {
+    margin-top: -15px;
+  }
+}
+
+@keyframes load4 {
+  0% {
+    margin-top: 0;
+  }
+  40% {
+    margin-top: -15px;
+  }
+}
+
+@-webkit-keyframes load5 {
+  0% {
+    margin-top: 0;
+  }
+  58% {
+    margin-top: -27px;
+  }
+}
+
+@keyframes load5 {
+  0% {
+    margin-top: 0;
+  }
+  58% {
+    margin-top: -27px;
+  }
+}
+
+@-webkit-keyframes load6 {
+  0% {
+    margin-top: 0;
+  }
+  65% {
+    margin-top: -36px;
+  }
+}
+
+@keyframes load6 {
+  0% {
+    margin-top: 0;
+  }
+  65% {
+    margin-top: -36px;
+  }
+}
+
+@-webkit-keyframes load7 {
+  0% {
+    margin-top: 0;
+  }
+  70% {
+    margin-top: -40px;
+  }
+}
+
+@keyframes load7 {
+  0% {
+    margin-top: 0;
+  }
+  70% {
+    margin-top: -40px;
+  }
+}
+/*# sourceMappingURL=ContainerW.css.map */

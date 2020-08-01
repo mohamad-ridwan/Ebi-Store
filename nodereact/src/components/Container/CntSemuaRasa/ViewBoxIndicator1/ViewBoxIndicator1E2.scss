@@ -1,0 +1,24 @@
+// Carousel Item
+.carousel-item{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    // Image
+    .img-produk{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        // Font
+        font-size: 15px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #34495e;
+    // END Font
+}
+// END Image
+}
+// END Carousel Item

@@ -1,0 +1,749 @@
+.cont-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  background: #fff;
+  margin: 0 0 0px 0;
+  overflow: hidden;
+}
+
+.cont-daftar .col1-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background: #152238;
+  -webkit-box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.cont-daftar .col1-daftar .btn-back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.cont-daftar .col1-daftar .btn-back .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.cont-daftar .col1-daftar .btn-back .btn:hover {
+  font-size: 22px;
+}
+
+.cont-daftar .col1-daftar .bar-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 0 20px;
+  overflow: hidden;
+}
+
+.cont-daftar .col1-daftar .bar-title .text-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #F1D0A5;
+  overflow: hidden;
+}
+
+.cont-daftar .col2-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.cont-daftar .col2-daftar .img-logo-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  width: 80px;
+  margin: 20px 0 0 0;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.cont-daftar .col2-daftar .sec-name-web {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.cont-daftar .col2-daftar .sec-name-web .txt1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 35px;
+  font-family: 'Fredoka One', cursive;
+  color: #ccc;
+  overflow: hidden;
+}
+
+.cont-daftar .col2-daftar .sec-name-web .txt2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  font-family: 'Fredoka One', cursive;
+  color: #ccc;
+  margin: 10px 0 0 0;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 20px 0 20px 0;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 370px;
+  width: 90%;
+  background: #eee;
+  -webkit-box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol1-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 10px 0 10px 0;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol1-daftar .icon-logo-daftar-akun {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 25px;
+  width: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 5px 2px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol1-daftar .txt-jdl-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol2-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: auto;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 5px;
+  margin: 5px 10px 0 10px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol2-daftar .kol-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol2-daftar .kol-icon i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  color: #aaa;
+  margin: 9px 0 0px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  padding: 1px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol2-daftar .kol-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol2-daftar .kol-input .username {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  padding: 0 0 0 10px;
+  margin: 0 0 0 0px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol3-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: auto;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 5px;
+  margin: 7px 10px 0 10px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol3-daftar .kol-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol3-daftar .kol-icon i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  color: #aaa;
+  margin: 9px 0 0px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  padding: 1px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol3-daftar .kol-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol3-daftar .kol-input .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  padding: 0 0 0 10px;
+  margin: 0 0 0 0px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol4-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: auto;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 5px;
+  margin: 7px 10px 0 10px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol4-daftar .kol-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol4-daftar .kol-icon i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  color: #aaa;
+  margin: 9px 0 0px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  padding: 1px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol4-daftar .kol-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol4-daftar .kol-input .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  padding: 0 0 0 10px;
+  margin: 0 0 0 0px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol5-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: auto;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 5px;
+  margin: 7px 10px 0 10px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol5-daftar .kol-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol5-daftar .kol-icon i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  color: #aaa;
+  margin: 9px 0 0px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  padding: 1px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol5-daftar .kol-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol5-daftar .kol-input .password1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  padding: 0 0 0 10px;
+  margin: 0 0 0 0px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol6-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: auto;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 5px;
+  margin: 7px 10px 0 10px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol6-daftar .kol-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol6-daftar .kol-icon i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  color: #aaa;
+  margin: 9px 0 0px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  padding: 1px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol6-daftar .kol-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol6-daftar .kol-input .password2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  padding: 0 0 0 10px;
+  margin: 0 0 0 0px;
+  overflow: hidden;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol7-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  width: auto;
+  background: #34495e;
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  margin: 10px 10px 0 10px;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-decoration: none;
+  padding: 12px 0 0 0;
+}
+
+.cont-daftar .col3-daftar .col-input-daftar .kol7-daftar:hover {
+  height: 47px;
+  margin: 9px 9px 0 9px;
+  -webkit-box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.5);
+}
+
+.cont-daftar .col4-daftar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0 30px 0;
+  margin: 0 0 55px 0;
+  overflow: hidden;
+}
+
+.cont-daftar .col4-daftar .txt-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #555;
+  margin: 0 0 10px 0;
+  overflow: hidden;
+}
+
+.cont-daftar .col4-daftar .btn-log-google {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 42px;
+  width: 230px;
+  background: #B40000;
+  -webkit-box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 15px 0;
+  overflow: hidden;
+  -webkit-transition: 150ms ease-out;
+  transition: 150ms ease-out;
+}
+
+.cont-daftar .col4-daftar .btn-log-google:hover {
+  background: #d40101;
+}
+
+.cont-daftar .col4-daftar .btn-log-google i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 22px;
+  color: #fff;
+  margin: 0 25px 0px 20px;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.cont-daftar .col4-daftar .btn-log-google .txt-login-g {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+
+.cont-daftar .col4-daftar .btn-log-facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 42px;
+  width: 230px;
+  background: #01458a;
+  -webkit-box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  -webkit-transition: 150ms ease-out;
+  transition: 150ms ease-out;
+}
+
+.cont-daftar .col4-daftar .btn-log-facebook:hover {
+  background: #0159b1;
+}
+
+.cont-daftar .col4-daftar .btn-log-facebook i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 22px;
+  color: #fff;
+  margin: 0 30px 0 20px;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.cont-daftar .col4-daftar .btn-log-facebook .txt-login-f {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+/*# sourceMappingURL=DaftarE.css.map */

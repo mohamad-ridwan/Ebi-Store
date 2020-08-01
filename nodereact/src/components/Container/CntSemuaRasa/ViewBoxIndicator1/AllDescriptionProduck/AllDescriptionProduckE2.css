@@ -1,0 +1,93 @@
+.col-jdl-desk-all-desk-produck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 30px 0 0 0;
+  overflow: hidden;
+}
+
+.col-jdl-desk-all-desk-produck .jdl-dsk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  margin: 10px 10px 10px 15px;
+  overflow: hidden;
+}
+
+.col-jdl-desk-all-desk-produck .col-txt-dsk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: auto;
+  padding: 5px 25px 5px 25px;
+  overflow: hidden;
+}
+
+.col-jdl-desk-all-desk-produck .col-txt-dsk .txt-dsk-produck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+  text-align: start;
+  overflow: hidden;
+}
+
+.col-jdl-komp-all-desk-produck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.col-jdl-komp-all-desk-produck .jdl-komp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  margin: 10px 10px 10px 15px;
+  overflow: hidden;
+}
+
+.col-jdl-komp-all-desk-produck .col-txt-komp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: auto;
+  padding: 5px 25px 5px 25px;
+  overflow: hidden;
+}
+
+.col-jdl-komp-all-desk-produck .col-txt-komp .txt-komp-produck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+  text-align: start;
+  overflow: hidden;
+}
+/*# sourceMappingURL=AllDescriptionProduckE2.css.map */

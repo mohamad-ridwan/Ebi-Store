@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// CONTAINER
+.wadah-container{
+    display: flex;  
+    flex-direction: column;
+    overflow: hidden;
+
+    // WHEN CONDITION FALSE DARI OPERATION TERNARY
+    .w-loading{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        background: #152238;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+            .icon-logo-web{
+                display: flex;
+                height: 80px;
+                width: 80px;
+                padding: 2px;
+                overflow: hidden;
+            }
+
+        // NAME LOGO
+        .name-logo{
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+
+            .name1-logo{
+                display: flex;
+                font-size: 35px;
+                font-family: 'Fredoka One', cursive;
+                color: ghostwhite;
+                overflow: hidden;
+            }
+
+            .name2-logo{
+                display: flex;
+                font-size: 15px;
+                font-family: 'Fredoka One', cursive;
+                color: ghostwhite;
+                margin: 14px 0 0 0px;
+                overflow: hidden;
+
+                &::after{
+                    content: '.com';
+                    color: #F1D0A5;
+                    margin: 0 0 0 1px;
+                    overflow: hidden;
+                }
+            }
+        }
+        // END NAME LOGO
+
+        // svg Loading page
+        svg{
+            display: flex;
+            height: 40px;
+            width: 40px;
+            margin: 50px 0 0 0;
+            overflow: hidden;
+            animation: Arotate 1s linear infinite;
+
+            circle{
+                display: flex;
+                height: 100%;
+                width: 100%;
+                fill: none;
+                stroke-width: 3;
+                stroke-linecap: round;
+                stroke: #fff;
+                transform: translate(0px, 0px);
+                stroke-dasharray: 100;
+                stroke-dashoffset: 100;
+                animation: Arotation 3s ease-in-out infinite;
+            }
+        }
+        // END svg Loading page
+        }
+
+        // Text Loading page
+        .c-txt-load{
+            display: flex;
+            height: 33px;
+            width: auto;
+            background: transparent;
+            align-items: center;
+            padding: 10px 0 0 0;
+            margin: 10px 0 0 0;
+            overflow: hidden;
+
+            .txt-load1{
+                display: flex;
+                font-size: 15px;
+                font-family: 'Fredoka One';
+                color: #F1D0A5;
+                overflow: hidden;
+                animation: load1 700ms linear infinite;
+            }
+
+            .txt-load2{
+                display: flex;
+                font-size: 15px;
+                font-family: 'Fredoka One';
+                color: #F1D0A5;
+                overflow: hidden;
+                animation: load2 700ms linear infinite;
+            }
+
+            .txt-load3{
+                display: flex;
+                font-size: 15px;
+                font-family: 'Fredoka One';
+                color: #F1D0A5;
+                overflow: hidden;
+                animation: load3 700ms linear infinite;
+            }
+
+            .txt-load4{
+                display: flex;
+                font-size: 15px;
+                font-family: 'Fredoka One';
+                color: #F1D0A5;
+                margin: 0 1px 0 5px;
+                overflow: hidden;
+                animation: load4 700ms linear infinite;
+            }
+
+            .txt-load5{
+                display: flex;
+                font-size: 15px;
+                font-family: 'Fredoka One';
+                color: #F1D0A5;
+                overflow: hidden;
+                animation: load5 700ms linear infinite;
+            }
+
+            .txt-load6{
+                display: flex;
+                font-size: 15px;
+                font-family: 'Fredoka One';
+                color: #F1D0A5;
+                overflow: hidden;
+                animation: load6 700ms linear infinite;
+            }
+
+            .txt-load7{
+                display: flex;
+                font-size: 15px;
+                font-family: 'Fredoka One';
+                color: #F1D0A5;
+                overflow: hidden;
+                animation: load7 700ms linear infinite;
+            }
+        }
+        // END Text Loading page
+        
+        // STORE LOGO
+        .store-logo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 80px 0 0 0;
+            overflow: hidden;
+
+            .icon-shop{
+                display: flex;
+                height: 30px;
+                width: 30px;
+                overflow: hidden;
+            }
+
+            .w-txt{
+                display: flex;
+                width: auto;
+                margin: 0 15px 0 15px;
+                overflow: hidden;
+
+                .txt{
+                    display: flex;
+                    font-size: 13px;
+                    font-family: 'roboto';
+                    color: ghostwhite;
+                    text-align: center;
+                    margin: 10px 0 0 0;
+                    overflow: hidden;
+                }
+            }
+        }
+        // END STORE LOGO
+    // END WHEN CONDITION FALSE DARI OPERATION TERNARY
+}
+// END CONTAINER
+
+// Animasi for loading page (Alogo)
+@keyframes Alogo{
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(50000deg);
+    }
+}
+// END Animasi for loading page (Alogo)
+
+// Animasi for loading page (Arotation)
+@keyframes Arotation{
+    0%{
+        stroke-dashoffset: 100;
+    }
+
+    30%{
+        stroke-dashoffset: 0;
+    }
+
+    30.1%{
+        stroke-dashoffset: 198;
+    }
+}
+// END Animasi for loading page (Arotation)
+
+// Animasi for loading page (Arotate)
+@keyframes Arotate{
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+// END Animasi for loading page (Arotate)
+
+
+// END Animasi for txt loading page (Load1)
+@keyframes load1{
+    0%{
+        margin: 0;
+    }
+
+    40%{
+        margin-top: -15px;
+    }
+}
+// END Animasi for txt loading page (Load1)
+
+// END Animasi for txt loading page (Load2)
+@keyframes load2{
+    0%{
+        margin-top: 0;
+    }
+
+    55%{
+        margin-top: -27px;
+    }
+}
+// END Animasi for txt loading page (Load2)
+
+// END Animasi for txt loading page (Load3)
+@keyframes load3{
+    0%{
+        margin-top: 0;
+    }
+
+    70%{
+        margin-top: -30px;
+    }
+}
+// END Animasi for txt loading page (Load3)
+
+// END Animasi for txt loading page (Load4)
+@keyframes load4{
+    0%{
+        margin-top: 0;
+    }
+
+    40%{
+        margin-top: -15px;
+    }
+}
+// END Animasi for txt loading page (Load4)
+
+// END Animasi for txt loading page (Load5)
+@keyframes load5{
+    0%{
+        margin-top: 0;
+    }
+
+    58%{
+        margin-top: -27px;
+    }
+}
+// END Animasi for txt loading page (Load5)
+
+// END Animasi for txt loading page (Load6)
+@keyframes load6{
+    0%{
+        margin-top: 0;
+    }
+
+    65%{
+        margin-top: -36px;
+    }
+}
+// END Animasi for txt loading page (Load6)
+
+// END Animasi for txt loading page (Load7)
+@keyframes load7{
+    0%{
+        margin-top: 0;
+    }
+
+    70%{
+        margin-top: -40px;
+    }
+}
+// END Animasi for txt loading page (Load7)

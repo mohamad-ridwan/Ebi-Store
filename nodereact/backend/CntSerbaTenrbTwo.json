@@ -1,0 +1,18 @@
+{
+    "CntSerbaTenrbTwo": [
+        {
+            "id1": 1,
+            "img1": "",
+            "name1": "Makaroni Asoy",
+            "txtGrade1": "(`200`) Terjual",
+            "txtStock1": "Stock (100)"
+        },
+        {
+            "id1": 2,
+            "img1": "",
+            "name1": "Makaroni Rumput Singkong",
+            "txtGrade1": "(`10`) Terjual",
+            "txtStock1": "Stock (5)"
+        }
+    ]
+}

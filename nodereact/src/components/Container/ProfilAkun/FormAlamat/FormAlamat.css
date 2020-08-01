@@ -1,0 +1,402 @@
+.cont-form-alamat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  background: #eee;
+  margin: 0 0 55px 0;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col1-form-alamat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background: #152238;
+  -webkit-box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.cont-form-alamat .col1-form-alamat .btn-back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col1-form-alamat .btn-back .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col1-form-alamat .btn-back .btn:hover {
+  font-size: 22px;
+}
+
+.cont-form-alamat .col1-form-alamat .bar-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 0 20px;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col1-form-alamat .bar-title .text-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #F1D0A5;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col2-form-alamat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  width: 100%;
+  background: #eee;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 10px 30px 10px;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col2-form-alamat .jdl-form-alamat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  background: #fff;
+  padding: 15px 0 10px 0;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat form .input1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 5px 0 5px 0;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat form .input1 .label-judul1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  margin: 0 0 10px 10px;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat form .input1 .column-input1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  width: auto;
+  background: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 0 10px 0 10px;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  padding: 0 0 0 10px;
+}
+
+.cont-form-alamat .col3-form-alamat form .input2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 5px 0 5px 0;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat form .input2 .label-judul2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  margin: 0 0 10px 10px;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat form .input2 .column-input2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  width: auto;
+  background: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 0 10px 0 10px;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  padding: 0 0 0 10px;
+}
+
+.cont-form-alamat .col3-form-alamat form .input3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 5px 0 5px 0;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat form .input3 .label-judul3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  margin: 0 0 10px 10px;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat form .input3 .column-input3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  width: auto;
+  background: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 0 10px 0 10px;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  padding: 0 0 0 10px;
+}
+
+.cont-form-alamat .col3-form-alamat form .input4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 5px 0 5px 0;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat form .input4 .label-judul4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  margin: 0 0 10px 10px;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat form .input4 .column-input4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  width: auto;
+  background: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 0 10px 0 10px;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  padding: 0 0 0 10px;
+}
+
+.cont-form-alamat .col3-form-alamat form .input5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 5px 0 5px 0;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat form .input5 .label-judul5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  margin: 0 0 10px 10px;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat form .input5 .column-input5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  width: auto;
+  background: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 0 10px 0 10px;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #333;
+  padding: 0 0 0 10px;
+}
+
+.cont-form-alamat .col3-form-alamat form .col-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px 0 10px;
+  overflow: hidden;
+}
+
+.cont-form-alamat .col3-form-alamat form .col-button .btn-form-alamat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  width: 420px;
+  background: #152238;
+  -webkit-box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  border: none;
+}
+
+.cont-form-alamat .col3-form-alamat form .col-button .btn-form-alamat:hover {
+  height: 47px;
+  width: 423px;
+  -webkit-box-shadow: 0 4px 7px -1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 4px 7px -1px rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=FormAlamat.css.map */

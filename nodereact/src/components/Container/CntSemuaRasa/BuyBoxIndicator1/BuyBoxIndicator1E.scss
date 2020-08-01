@@ -1,0 +1,271 @@
+.cont-buy-box1-semuaHarga{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background: #eee;
+    margin: 0 0 55px 0;
+    overflow: hidden;
+    border: 1px solid red;
+
+    // Column1
+    // Bar
+    .col1-semuaHarga{
+        display: flex;
+        height: 50px;
+        width: 100%;
+        background: #152238;
+        box-shadow: 0 3px 6px -1px rgba(0,0,0,0.5);
+        overflow: hidden;
+
+        .btn-back{
+            display: flex;
+            height: auto;
+            width: 50px;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+
+            .btn{
+                display: flex;
+                font-size: 20px;
+                color: #fff;
+                padding: 5px;
+                text-decoration: none;
+                overflow: hidden;
+                
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .bar-title{
+            display: flex;
+            height: auto;
+            width: 100%;
+            align-items: center;
+            padding: 0 0 0 20px;
+            overflow: hidden;
+
+            .text-title{
+                display: flex;
+                font-size: 18px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #F1D0A5;
+                overflow: hidden;
+            }
+        }
+    }
+    // END Bar
+    // END Column1
+
+    // Column2
+    .col2-semuaHarga{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background: #fff;
+        border: 1px solid blue;
+        overflow: hidden;
+
+        // Section1
+        .section1-col2{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+            border: 1px solid #000;
+            padding: 20px 0 0 10px;
+            overflow: hidden;
+
+            // Text Gambar Makanan
+            .txt-jdl-g-m{
+                display: flex;
+                font-size: 13px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #34495e;
+                text-align: start;
+                overflow: hidden;
+            }
+            // Text Gambar Makanan
+
+            // Img Makanan
+            .img-g-m{
+                display: flex;
+                height: 150px;
+                width: 220px;
+                background: #eee;
+                box-shadow: 0 3px 6px -1px rgba(0,0,0,0.5);
+                border-radius: 5px;
+                margin: 10px 0 0 0;
+                overflow: hidden;
+
+                .img-m{
+                    display: flex;
+                    height: 100%;
+                    width: 100%;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    overflow: hidden;
+                    // For Text Image Not Found
+                    font-size: 13px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    color: #333;
+                }
+
+                .btn-expand{
+                    display: flex;
+                    position: absolute;
+                    margin: 120px 0 0 190px;
+                    text-decoration: none;
+                    overflow: hidden;
+
+                    i{
+                        display: flex;
+                        font-size: 23px;
+                        color: #000;
+                        overflow: hidden;
+                    }
+                }
+            }
+            // Img Makanan
+        }
+        // END Section1
+
+        // Section2
+        .section2-col2{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 10px 10px 1px 10px;
+            overflow: hidden;
+            border: 1px solid yellow;
+
+            .txt-jdl-nama-makanan{
+                display: flex;
+                font-size: 13px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #34495e;
+                overflow: hidden;
+            }
+
+            .txt-nama-makanan{
+                display: flex;
+                font-size: 15px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: normal;
+                color: #333;
+                margin: 5px 0 0 0;
+                overflow: hidden;
+            }
+        }
+        // END Section2
+
+        // Section3
+        .section3-col2{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 10px 10px 1px 10px;
+            overflow: hidden;
+            border: 1px solid green;
+
+            .txt-jdl-harga-makanan{
+                display: flex;
+                font-size: 13px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #34495e;
+                overflow: hidden;
+            }
+
+            .txt-harga-makanan{
+                display: flex;
+                font-size: 15px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #333;
+                margin: 5px 0 0 0;
+                text-align: start;
+                overflow: hidden;
+            }
+        }
+        // END Section3
+
+        // Section4
+        .section4-col2{
+            display: flex;
+            height: auto;
+            width: 100%;
+            padding: 10px 0 0 0;
+            overflow: hidden;
+            border: 1px solid orange;
+
+            .box-note{
+                display: flex;
+                height: auto;
+                width: auto;
+                background: #D3EFFC;
+                border-radius: 3px;
+                margin: 0 10px 5px 10px;
+                padding: 5px;
+                overflow: hidden;
+
+                // Row1
+                .row1{
+                    display: flex;
+                    height: auto;
+                    width: 60px;
+                    padding: 5px 0px 5px 3px;
+                    overflow: hidden;
+
+                    i{
+                        display: flex;
+                        font-size: 16px;
+                        color: #152238;
+                        padding: 1.5px 2px 0 0;
+                        overflow: hidden;
+                    }
+    
+                    .txt-jdl-note{
+                        display: flex;
+                        font-size: 13px;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        font-weight: 500;
+                        color: #333;
+                        overflow: hidden;
+                    }
+                }
+                // END Row1
+
+                // Row2
+                .row2{
+                    display: flex;
+                    height: auto;
+                    width: 80%;
+                    padding: 7px 5px 5px 5px;
+                    overflow: hidden;
+
+                    .txt-desk-note{
+                        display: flex;
+                        font-size: 11px;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        color: #333;
+                        text-align: justify;
+                        overflow: hidden;
+                    }
+                }
+                // END Row2
+            }
+        }
+        // END Section4
+    }
+    // END Column2
+}

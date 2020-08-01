@@ -1,0 +1,10 @@
+.load-btn-desk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background: red;
+  overflow: hidden;
+}
+/*# sourceMappingURL=DescriptionWeb.css.map */

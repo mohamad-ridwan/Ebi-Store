@@ -1,0 +1,28 @@
+.c-challange{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background: #ddd;
+    overflow: hidden;
+
+    // Section1
+    .section1-ch{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+    // END Section1
+
+    // Section2
+    .section2-ch{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+    // END Section2
+}

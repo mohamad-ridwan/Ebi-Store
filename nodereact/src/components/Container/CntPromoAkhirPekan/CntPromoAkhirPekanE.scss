@@ -1,0 +1,250 @@
+// Container
+.c-p-p-a-p{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    background: #34495eaf;
+    box-shadow: 0 3px 10px -1px rgba(0,0,0,0.4);
+    border-radius: 3px;
+    margin: 0 2% 2% 2%;
+    overflow: hidden;
+
+    // Section1
+    .section1{
+        display: flex;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+    }
+    // END Section1
+}
+// END Container
+
+// Section2
+.section2-p-a-p{
+    display: flex;
+    height: 55px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 2% 0;
+    overflow: hidden;
+}
+// END Section2
+
+// When condition loading work
+// Load 1
+.load-p-a-p-2{
+    display: flex;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+
+    // Box1
+    .load-box1{
+        display: flex;
+        height: 150px;
+        width: 50%;
+        background: #eee;
+        box-shadow: 0 0 15px -1px rgba(0,0,0,0.3);
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        margin: 2% 1% 2% 2%;
+        overflow: hidden;
+
+        svg{
+            display: flex;
+            height: 50px;
+            width: 50px;
+            background: transparent;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            animation: box1Rotate 500ms linear infinite;
+
+            circle{
+                display: flex;
+                fill: none;
+                height: 100%;
+                width: 100%;
+                stroke: #34495e;
+                stroke-linecap: round;
+                stroke-width: 3px;
+                transform: translate(5px, 5px);
+                stroke-dasharray: 80;
+                stroke-dashoffset: 80;
+                animation: box1Circle 1s ease-out infinite;
+            }
+        }
+    }
+    // END Box1
+
+    // Box1
+    .load-box2{
+        display: flex;
+        height: 150px;
+        width: 50%;
+        background: #eee;
+        box-shadow: 0 0 15px -1px rgba(0,0,0,0.3);
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        margin: 2% 2% 2% 1%;
+        overflow: hidden;
+
+        svg{
+            display: flex;
+            height: 50px;
+            width: 50px;
+            background: transparent;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            animation: box2Rotate 500ms linear infinite;
+
+            circle{
+                display: flex;
+                fill: none;
+                height: 100%;
+                width: 100%;
+                stroke: #34495e;
+                stroke-linecap: round;
+                stroke-width: 3px;
+                transform: translate(5px, 5px);
+                stroke-dasharray: 80;
+                stroke-dashoffset: 80;
+                animation: box2Circle 1s ease-out infinite;
+            }
+        }
+    }
+    // END Box1
+}
+// END Load 1
+// END When condition loading work
+
+// Animation
+// Animation for load box1 (circle)
+// Box1
+@keyframes box1Circle {
+    0%{
+        stroke-dashoffset: 80;
+    }
+    50%{
+        stroke-dashoffset: 5;
+    }
+}
+// END Box1
+// END Animation for load box1 (circle)
+
+// Animation for load box1 (rotate)
+// Box1
+@keyframes box1Rotate {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+// END Box1
+// END Animation for load box1 (rotate)
+
+// Animation for load box2 (circle)
+// Box2
+@keyframes box2Circle {
+    0%{
+        stroke-dashoffset: 80;
+    }
+    50%{
+        stroke-dashoffset: 5;
+    }
+}
+// END Box1
+// END Animation for load box2 (circle)
+
+// Animation for load box2 (rotate)
+// Box2
+@keyframes box2Rotate {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+// END Box2
+// END Animation for load box2 (rotate)
+
+.load-p-a-p-4{
+    display: flex;
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 2.5% 0 2.5%;
+    overflow: hidden;
+
+    .load-box{
+        display: flex;
+        height: 40px;
+        width: 100%;
+        background: #bbb;
+        box-shadow: 0 0px 15px -1px rgba(0,0,0,0.3);
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        svg{
+            display: flex;
+            height: 30px;
+            width: 30px;
+            background: transparent;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            animation: box1Rotate 500ms linear infinite;
+
+            circle{
+                display: flex;
+                fill: none;
+                height: 100%;
+                width: 100%;
+                stroke: #34495e;
+                stroke-linecap: round;
+                stroke-width: 2px;
+                transform: translate(-5px, -5px);
+                stroke-dasharray: 50;
+                stroke-dashoffset: 50;
+                animation: box1Circle 1s ease-out infinite;
+            }
+        }
+    }
+}
+
+// Animation
+// Animation for load box1 (circle)
+// Load 4
+@keyframes box1Circle {
+    0%{
+        stroke-dashoffset: 50;
+    }
+    50%{
+        stroke-dashoffset: 5;
+    }
+}
+// END Load 4
+// END Animation for load box1 (circle)
+
+// Animation for load box1 (rotate)
+// Load 4
+@keyframes box1Rotate {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+// END load 4
+// END Animation for load box1 (rotate)
